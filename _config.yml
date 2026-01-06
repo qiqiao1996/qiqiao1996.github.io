@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Gao Lan (高澜)"
-  avatar           : "images/Lan.png"
+  name             : "Qi Qiao (齐俏)"
+  avatar           : "images/Qiao.jpg"
   bio              : "Hangzhou Normal University"
   location         : "Hangzhou, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=VvpUfeYAAAAJ&hl=zh-CN"
-  email            : "langao@hznu.edu.cn"
+  googlescholar    : "https://scholar.google.com/citations?user=pBR9kbMAAAAJ&hl=zh-CN"
+  email            : "qiqiao@hznu.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "langaouc"
+  github           : "qiqiao1996"
   google_plus      :
   keybase          :
   instagram        :
