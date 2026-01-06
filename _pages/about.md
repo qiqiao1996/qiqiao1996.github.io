@@ -18,14 +18,10 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 个人简介
-高澜，副教授，硕士生导师，重庆大学计算机专业博士，美国加州大学河滨分校联合培养博士。本人主要从事自主智能系统协同控制、抗干扰/攻击控制、安全隐私保护、分布式人工智能等方向的前沿研究工作，以第一/通讯作者身份在IEEE Transactions on Automation Science and Engineering，IEEE Transactions on Control of Network Systems，IEEE Transactions on Cybernetics等国际权威期刊发表SCI论文10余篇。此外，申请发明专利5项，授权2项。
-科研项目方面，主持国家自然科学基金青年项目1项，国家博士后基金面上项目1项以及浙江省自然科学基金青年项目1项，同时参与国家重点研发计划课题1项和国家自然科学基金面上项目1项。
-
-# 研究领域
-本课题组主要从事自主智能系统协同控制、抗干扰/攻击控制、安全隐私保护、分布式人工智能等方向的前沿研究工作。具体来说，主要研究无人机、无人车等自主智能系统以及它们之间的协同控制问题，通过开发新颖的多机/多车协同控制算法实现无人机/无人车的编队协同，进而协同完成给定的任务。第二，针对自主智能系统（智能无人机、无人驾驶汽车、分布式集群计算等）协同所面临的外部干扰/攻击、安全隐私问题，通过设计鲁棒的抗干扰/攻击、安全隐私保护方案，使其在复杂外部环境下实现协同运行的目的。第三，针对大规模机器学习/深度学习所面临的计算瓶颈问题，基于分布式计算思想开发适用于大型服务器集群的分布式人工智能算法，提高整个集群的计算效率。
+齐俏，讲师，硕士生导师，浙江大学信息与通信工程博士。研究方向为无线通信，包括6G关键技术、新一代边缘智能网络、通感算一体化及多维资源优化设计等前沿领域的研究，取得了一系列创新成果。目前，主持国家自然科学基金（青C）及浙江省自然科学青年基金各1项，以第一/通讯作者在TWC、TSP、TCOM、SCIS等顶级期刊发表SCI论文十余篇，在Globecom等旗舰会议发表EI论文6篇，总引用超800次；第一发明人获授权国家发明专利6项，出版学术专著1部。担任无线通信领域15个权威期刊如IEEE TWC、IEEE TCOM、IEEE JSAC等和重要国际会议IEEE Globecom、IEEE ICC等的审稿人，担任多个国际重要会议如IEEE Globecom、WCSP、IEEE WCNC等的技术委员会成员。
 
 # 研究生招生
-欢迎对上述研究方向有浓厚兴趣（第一重要！！！）、态度端正认真（第二重要！！）、理论功底扎实（数学、自动化、算法方向更佳！）的同学与我一起学习进步，每年招收2-3名硕士生。
+欢迎对上述研究方向有浓厚兴趣（第一重要！！！）、态度端正认真（第二重要！！）、理论功底扎实（数学、自动化、算法方向更佳！）的同学与我一起学习进步，每年招收1名硕士生。
 
 加入本课题组的学生可以享受待遇如下：
 
@@ -39,17 +35,18 @@ redirect_from:
 
 我将尽自己最大努力培养好学生，确保学生毕业后有个好的归宿！！
 
-联系请附个人简历，邮箱：langao@hznu.edu.cn
+联系请附个人简历和成绩单，邮箱：qiqiao@hznu.edu.cn 或 qiqiaozju@163.com
 
 # 主持科研项目
-1. 国家自然科学基金青年项目，干扰对抗环境下无人飞行器分布式动态共识协同控制，主持，在研，2023.01-2025.12
-1. 中国博士后基金面上项目，面向无线电干扰的无人飞行器分布式动态共识协同控制，主持，已结题，2022.01-2022.12
-1. 浙江省自然科学基金青年项目，基于复杂网络环境约束的差分隐私一致性算法研究，主持，已结题，2020.01-2022.12
-1. 国家重点研发计划课题，骨干参与，在研，2020.01-2023.12
-1. 航天科工集团第三总体设计部项目，骨干参与，在研，2022.01-2023.12
-1. 国家自然科学基金面上项目1项，参与，在研，2021.01-2024.12
-1. 重庆市研究生科研创新项目，主持，已结题，2017.01-2018.12
-
+1. 国家自然科学基金青年项目（C类），任务驱动的通信-感知-计算融合网络资源优化方法研究，主持，在研，2026.01-2028.12
+1. 浙江省自然科学基金青年项目，基于多基站协作的6G通感算一体化多维资源管理技术研究，主持，在研，2025.01-2026.12
+1. 杭州师范大学启动项目，面向工业互联网的通信、感知和计算一体化技术研究，主持，在研，2023.08-2027.08
+1. 杭州师范大学培育项目，面向6G蜂窝物联网的通信、感知和计算一体化资源管理研究，主持，结题，2023.12-2024.12.
+1. 浙江大学争创优秀博士学位论文资助项目，面向边缘智能网络的通信、感知和计算一体化技术研究，主持，结题，2022.06-2023.06
+1. 国家自然科学基金面上项目，面向人体动作质量的精确评估研究，参与，在研，2025.01-2028.12.
+1. 国家自然科学基金区创重点项目，低轨卫星物联网的移动覆盖和巨址接入理论与关键技术，参与，结题，2022.01-2025.12
+1. 华为公司合作项目，有限位宽均衡算法研究，参与，结题，2020-2021
+ 
 # 论文发表 
 1. **Gao Lan**, Lu Hao, Wang Jianliang, Yu Xiang, Jiang Peng, Chen Fei, Li Huaqing. Robust Distributed Average Tracking With Disturbance Observer Control[J]. _IEEE Transactions on Automation Science and Engineering_, 2025, 22: 970-983. (2022IF: 5.6, 中科院一区, [PDF](https://langaouc.github.io/files/TASE.pdf))
 1. Lu Hao, **Gao Lan**\*, Yan Yunda, Hou Mingzhe, Wang Chenliang. Wind disturbance compensated path-following control for fixed-wing UAVs in arbitrarily strong winds[J]. _Chinese Journal of Aeronautics_, 2024, 37(2): 431-445. (2022IF: 5.7, 中科院一区, [PDF](https://langaouc.github.io/files/CJA-2024.pdf))
@@ -63,17 +60,3 @@ redirect_from:
 1. **Gao Lan**, Liao Xiaofeng, Li Huaqing, Chen Guo. Event-Triggered Control for Multi-Agent Systems with General Directed Topology and Time-Delays[J]. _Asian Journal of Control_, 2016, 18(3): 945-953. (2022IF: 2.4, 中科院三区, [PDF](https://langaouc.github.io/files/ASJC.pdf))
 
 
-# 实验室概览
-## 1. 室内微型无人机编队飞行
-![image](https://langaouc.github.io/images/CPSPC_Lab/image1.png)
-<!-- <img src="https://langaouc.github.io/images/CPSPC_Lab/image1.png" width=80%> -->
-
-## 2. 自主飞行智能无人平台
-![image](https://langaouc.github.io/images/CPSPC_Lab/image2.png)
-
-## 3. 室内室外自主飞行试验
-![image](https://langaouc.github.io/images/CPSPC_Lab/image3.png)
-
-## 4. 无人机应用场景
-![image](https://langaouc.github.io/images/CPSPC_Lab/app1.png)
-![image](https://langaouc.github.io/images/CPSPC_Lab/app2.png)
