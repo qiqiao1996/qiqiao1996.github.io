@@ -47,16 +47,5 @@ redirect_from:
 1. 国家自然科学基金区创重点项目，低轨卫星物联网的移动覆盖和巨址接入理论与关键技术，参与，结题，2022.01-2025.12
 1. 华为公司合作项目，有限位宽均衡算法研究，参与，结题，2020-2021
  
-# 论文发表 
-1. **Gao Lan**, Lu Hao, Wang Jianliang, Yu Xiang, Jiang Peng, Chen Fei, Li Huaqing. Robust Distributed Average Tracking With Disturbance Observer Control[J]. _IEEE Transactions on Automation Science and Engineering_, 2025, 22: 970-983. (2022IF: 5.6, 中科院一区, [PDF](https://langaouc.github.io/files/TASE.pdf))
-1. Lu Hao, **Gao Lan**\*, Yan Yunda, Hou Mingzhe, Wang Chenliang. Wind disturbance compensated path-following control for fixed-wing UAVs in arbitrarily strong winds[J]. _Chinese Journal of Aeronautics_, 2024, 37(2): 431-445. (2022IF: 5.7, 中科院一区, [PDF](https://langaouc.github.io/files/CJA-2024.pdf))
-1. **Gao Lan**, Deng Shaojiang, Ren Wei, Hu Chunqiang. Differentially Private Consensus with Quantized Communication[J]. _IEEE Transactions on Cybernetics_, 2021, 51(8): 4075-4088. (2022IF: 11.8, 中科院一区, [PDF](https://langaouc.github.io/files/TCYB.pdf))
-1. **Gao Lan**, Zhou Yiqun, Chen Xin, Cai Runfeng, Chen Guo, Li Chaojie. Privacy-preserving Dynamic Average Consensus via Random Perturbation[J]. _IEEE Transactions on Circuits and Systems II: Express Briefs_, 2023, 70(4): 1490-1494. (2022IF: 4.4, 中科院二区, [PDF](https://langaouc.github.io/files/TCAS-II-2023.pdf))
-1. **Gao Lan**, Deng Shaojiang, Li Huaqing, Li Chaojie. An Event-Triggered Approach for Gradient Tracking in Consensus-based Distributed Optimization[J]. _IEEE Transactions on Network Science and Engineering_, 2022, 9(2): 510-523. (2022IF: 6.6, 中科院二区, [PDF](https://langaouc.github.io/files/TNSE.pdf))
-1. Xu Kedong, **Gao Lan**\*, Chen Fei, Li Chaojie and Xuan Qi. Robust Finite-time Dynamic Average Consensus with Exponential Convergence Rates[J]. _IEEE Transactions on Circuits and Systems II: Express Briefs_, 2021, 68(7): 2578-2582. (2022IF: 4.4, 中科院二区, [PDF](https://langaouc.github.io/files/TCAS-II-2021.pdf))
-1. **Gao Lan**, Deng Shaojiang, Ren Wei. Differentially Private Consensus with an Event-Triggered Mechanism[J]. _IEEE Transactions on Control of Network Systems_, 2019, 6(1): 60-71. (2022IF: 4.2, 中科院三区, [PDF](https://langaouc.github.io/files/TCNS.pdf))
-1. **Gao Lan**, Liao Xiaofeng, Li Huaqing. Pinning Controllability Analysis of Complex Networks with a Distributed Event-Triggered Mechanism[J]. _IEEE Transactions on Circuits and Systems II: Express Briefs_, 2014, 61(7): 541-545. (2022IF: 4.4, 中科院二区, [PDF](https://langaouc.github.io/files/TCAS-II.pdf))
-1. **Gao Lan**, Liao Xiaofeng, Li Huaqing, Chen Guo. Event-Triggered Control for Multi-Agent Network with Limited Digital Communication[J]. _Nonlinear Dynamics_, 2015, 82(4): 1659-1669. (2022IF: 5.6, 中科院二区, [PDF](https://langaouc.github.io/files/NonlinearD.pdf))
-1. **Gao Lan**, Liao Xiaofeng, Li Huaqing, Chen Guo. Event-Triggered Control for Multi-Agent Systems with General Directed Topology and Time-Delays[J]. _Asian Journal of Control_, 2016, 18(3): 945-953. (2022IF: 2.4, 中科院三区, [PDF](https://langaouc.github.io/files/ASJC.pdf))
 
 
