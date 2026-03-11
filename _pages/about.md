@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 个人简介
+# 个人简介 （正在建设中）
 齐俏，讲师，硕士生导师，浙江大学信息与通信工程博士。研究方向为无线通信，包括6G关键技术、新一代边缘智能网络、通感算一体化及多维资源优化设计等前沿领域的研究，取得了一系列创新成果。目前，主持国家自然科学基金（青C）及浙江省自然科学青年基金各1项，以第一/通讯作者在TWC、TSP、TCOM、SCIS等顶级期刊发表SCI论文十余篇，在Globecom等旗舰会议发表EI论文6篇，总引用超800次；第一发明人获授权国家发明专利6项，出版学术专著1部。担任无线通信领域15个权威期刊如IEEE TWC、IEEE TCOM、IEEE JSAC等和重要国际会议IEEE Globecom、IEEE ICC等的审稿人，担任多个国际重要会议如IEEE Globecom、WCSP、IEEE WCNC等的技术委员会成员。
 
 # 研究生招生
