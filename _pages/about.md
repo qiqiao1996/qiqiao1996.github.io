@@ -23,7 +23,7 @@ redirect_from:
 齐俏，讲师，硕士生导师，浙江大学信息与通信工程博士。研究方向为无线通信，包括6G关键技术、新一代边缘智能网络、通感算一体化及多维资源优化设计等前沿领域的研究，取得了一系列创新成果。目前，主持国家自然科学基金（青C）及浙江省自然科学青年基金各1项，以第一/通讯作者在TWC、TSP、TCOM、SCIS等顶级期刊发表SCI论文十余篇，在Globecom等旗舰会议发表EI论文6篇，总引用超800次；第一发明人获授权国家发明专利6项，出版学术专著1部。担任无线通信领域15个权威期刊如IEEE TWC、IEEE TCOM、IEEE JSAC等和重要国际会议IEEE Globecom、IEEE ICC等的审稿人，担任多个国际重要会议如IEEE Globecom、WCSP、IEEE WCNC等的技术委员会成员。
 
 # 研究生招生
-欢迎对上述研究方向有浓厚兴趣（第一重要！！！）、态度端正认真（第二重要！！）、理论功底扎实（数学、自动化、算法方向更佳！）的同学与我一起学习进步，每年招收1名硕士生。
+欢迎对上述研究方向有浓厚兴趣（第一重要！！！）、态度端正认真（第二重要！！）、理论功底扎实（通信、数学、算法方向更佳！）的同学与我一起学习进步，每年招收1名硕士生。
 
 加入本课题组的学生可以享受待遇如下：
 
@@ -49,5 +49,29 @@ redirect_from:
 1. 国家自然科学基金区创重点项目，低轨卫星物联网的移动覆盖和巨址接入理论与关键技术，参与，结题，2022.01-2025.12
 1. 华为公司合作项目，有限位宽均衡算法研究，参与，结题，2020-2021
  
+# 期刊论文
+[1]	Q. Qi and X. Chen, “Wireless Powered Massive Access for Cellular Internet of Things with Imperfect SIC and Non-Linear EH,” IEEE Internet of Things Journal, vol. 6, no. 2, pp. 3110-3120, Apr. 2019. (JCR-Q1,中科院2区，TOPSCI，IF= 8.9)
+[2]	Q. Qi, X. Chen, and D. W. K. Ng, “Robust Beamforming for NOMA-Based Cellular Massive IoT With SWIPT,” IEEE Transactions on Signal Processing, vol. 68, pp. 211-224, 2020. (JCR-Q1,中科院1区，TOPSCI，IF= 5.8)
+[3]	Q. Qi, X. Chen, L. Lei, C. Zhong, and Z. Zhang, “Outage-Constrained Robust Design for Sustainable B5G Cellular Internet of Things,” IEEE Transactions on Wireless Communications, vol. 18, no. 12, pp. 5780-5790, Dec. 2019. (JCR-Q1,中科院1区，TOPSCI， IF=10.7)
+[4]	Q. Qi, X. Chen, C. Zhong, and Z. Zhang, “Integrated Sensing, Computation and Communication in B5G Cellular Internet of Things,” IEEE Transactions on Wireless Communications, vol. 20, no. 1, pp.332-344, Jan. 2021. (JCR-Q1,中科院 1 区，TOPSCI，IF= 10.7)
+[5]	Q. Qi and X. Chen, “Robust Design of Federated Learning for Edge-Intelligent Networks”, IEEE Transactions on Communications, vol. 70, no. 7, pp. 4469-4481, Jul. 2022. (JCR-Q1,中科院2 区，TOPSCI，IF= 8.3)
+[6]	Q. Qi, X. Chen, A. Khalili, C. Zhong, Z. Zhang, and D. W. K. Ng, “Integrating Sensing, Computing, and Communication in 6G Wireless Networks: Design and Optimization”, IEEE Transactions on Communications, vol. 70, no. 9, pp. 6212-6227, Sep. 2022. (JCR-Q1,中科院2 区，TOPSCI，IF= 8.3)
+[7]	Q. Qi, X. Chen, C. Zhong, and Z. Zhang, “Physical Layer Security for Massive Access in Cellular Internet of Things,” SCIENCE CHINA Information Sciences, vol.63, no.2, pp. 121301:1–121301:12, Feb. 2020. (JCR-Q1,中科院1区，SCI，IF=7.6)
+[8]	Q. Qi, X. Chen, C. Zhong, and Z. Zhang, “Integration of Energy, Computation and Communication in 6G Cellular Internet of Things,” IEEE Communications Letters, vol. 24, no. 6, pp. 1333-1337, Jun. 2020. (JCR-Q2,中科院3区，SCI，IF=4.4)
+[9]	Q. Qi, X. Chen, C. Zhong, C. Yuen and Z. Zhang, “Deep Learning-based Design of Uplink Integrated Sensing and Communication”, IEEE Transactions on Wireless Communications, vol. 23, no. 9, pp. 10639-10652, Sep. 2024 (JCR-Q1,中科院 1 区，TOPSCI，IF= 10.7)
+[10]	Q. Qi, X. Chen, and C. Yuen, “Joint Offloading Selection and Resource Allocation for Integrated Localization and Computing in Edge-intelligent Networks”, IEEE Transactions on Vehicular Technology, vol. 73, no. 8, pp. 11427-11440, Aug. 2024. (JCR-Q1,中科院 2 区，TOPSCI，IF= 7.1)
+[11]	齐俏,陈晓明.面向边缘智能网络的通-感-算融合：架构、挑战和展望[J].移动通信,2024,48(03):40-46.
+[12]	Q.Qi, Q. Chen,  Z. Yang, X. Chen, C. Huang, and C. Yuen, “Task-Oriented Wave Processing: Forging 6G Service Symbiosis with Stacked Intelligent Metasurfaces”，Submitted to IEEE Wireless Communications. (JCR-Q1,中科院2区，TOPSCI，IF= 11.6)
+[13]	Q. Chen, Q.Qi(通讯作者), J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “Stacked Intelligent Metasurface Enhanced Integrated Communication and Computation”， IEEE Internet of Things Journal,  doi: 10.1109/JIOT.2025.3649324. (JCR-Q1,中科院2区，TOPSCI，IF= 8.9)
+[14]	R. Jia, X. Chen, Q. Qi, and H. Lin, “Massive Beam Division Multiple Access for B5G Cellular Internet of Things, ” IEEE Internet of Things Journal, vol. 7, no. 3, pp. 2386-2396, Mar. 2020. (JCR-Q1, 中科院2区，TOPSCI，IF= 8.9))
+[15]	Q. Wang, X. Chen, and Q. Qi, “Task-Driven Robust Integration of Communication and Computation for Edge-Intelligent Networks,” IEEE Transactions on Communications, vol. 71, no. 1, pp. 244-255, Jan. 2023.(JCR-Q1,中科院2 区，IF= 8.3，TOPSCI)
+[16]	Q. Wang, X. Chen, and Q. Qi, “Energy-Efficient Design of Satellite-Terrestrial Computing in 6G Wireless Networks,” IEEE Transactions on Communications, vol. 72, no. 3, pp. 1759-1772, Mar. 2023.(JCR-Q1,中科院2 区，IF= 8.3，TOPSCI)
+[17]	M. Ying, X. Chen, Q. Qi, and W. Gerstacker “Deep Learning-based Joint Channel Prediction and Multibeam Precoding for LEO Satellite Internet of Things, ”  IEEE Transactions on Wireless Communications, vol. 23, no. 10, pp. 13946-13960, Oct. 2024. (JCR-Q1,中科院 1 区，TOPSCI，IF= 10.7)
+[18]	Q. Wang, X. Chen, Q. Qi, M. Li, and W. Gerstacker “Multiple-Satellite Cooperative Information Communication and Location Sensing in LEO Satellite Constellations,” IEEE Transactions on Wireless Communications, vol. 24, no. 4, pp. 3346-3361, Apr. 2025. (JCR-Q1,中科院 1 区，TOPSCI，IF= 10.7)
+[19]	M. Ying, X. Chen, Q. Qi, and Z. Zhang “QoS-Driven Satellite Constellation Design for LEO Satellite Internet of Things,” IEEE Transactions on Wireless Communications,  vol. 25, pp. 3610-3625, 2026. (JCR-Q1,中科院 1 区，TOPSCI，IF= 10.7)
+[20]	Q. Wang, X. Chen, Q. Qi, Z. Wang, and Y. Liu, “Integration of Navigation and Remote Sensing in LEO Satellite Constellations,” IEEE Transactions on Communications, vol. 74, pp. 581-597, 2026. (中科院2区，TOPSCI，IF= 8.3)
+[21]	W. Yao, X. Chen, Q. Wang, Q. Qi and M. Ying, "Metasurface Antenna-Enabled LEO Satellite Constellation Communications: Design and Optimization," IEEE Internet of Things Journal, doi: 10.1109/JIOT.2026.3660315. (JCR-Q1,中科院2区，TOPSCI，IF= 8.9)
+[22]	M. Ying, X. Chen, Q. Qi, and C, Xu, "Modeling and Analysis for Multiple-Layer LEO Satellite Internet of Things Constellations", IEEE Transactions on Wireless Communications, doi:10.1109/TWC.2026.3672191. (JCR-Q1,中科院 1 区，TOPSCI，IF= 10.7)
+
 
 
