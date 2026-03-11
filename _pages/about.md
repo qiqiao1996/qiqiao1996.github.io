@@ -73,5 +73,21 @@ redirect_from:
 1. 	W. Yao, X. Chen, Q. Wang, Q. Qi and M. Ying, "Metasurface Antenna-Enabled LEO Satellite Constellation Communications: Design and Optimization," IEEE Internet of Things Journal, doi: 10.1109/JIOT.2026.3660315. (JCR-Q1,中科院2区，TOPSCI，IF= 8.9)
 1. 	M. Ying, X. Chen, Q. Qi, and C, Xu, "Modeling and Analysis for Multiple-Layer LEO Satellite Internet of Things Constellations", IEEE Transactions on Wireless Communications, doi:10.1109/TWC.2026.3672191. (JCR-Q1,中科院 1 区，TOPSCI，IF= 10.7)
 
+# 会议论文
+
+1. 	Q. Qi, X. Chen, D. W. K. Ng, C. Zhong, and Z. Zhang, “Robust Beamforming Design for SWIPT in Cellular Internet of Things,” in Proc. IEEE/CIC ICCC 2019, Changchun, China, 2019, pp. 523-528. (国际会议，EI)
+1. 	Q. Qi, X. Chen, L. Lei, C. Zhong, and Z. Zhang, “Robust Convergence of Energy and Computation for B5G Cellular Internet of Things,” in Proc. IEEE GLOBECOM 2019, Hawaii, USA, 2019，pp. 1-6.  (国际旗舰会议，EI)
+1. 	Q. Qi, X. Chen, C. Zhong, and Z. Zhang, “Robust Integration of Computation and Communication in B5G Cellular Internet of Things,” in Proc. IEEE WCNC 2020, Seoul, Korea, 2020，pp. 1-6. (国际会议，EI)
+1. 	Q. Qi, X. Chen, and C. Yuen, “Joint Resource Allocation for Integrated Localization and Computing in Edge-Intelligent Networks,” in Proc. IEEE GLOBECOM 2022, Rio de Janeiro, Brazil, 2022, pp. 800-806. (国际旗舰会议，EI，获IEEE ComSoc Student Grant)
+1. 	Q. Qi, X. Chen, and C. Yuen, “DL-based Joint Waveform and Beamforming Design for Integrated Sensing and Communication,” in Proc. IEEE GLOBECOM 2023, Kuala Lumpur, Malaysia, 2023, pp. 1-6. (国际旗舰会议，EI)
+1. 	C. Jin, Q. Qi(通讯作者), and J. Li, “The Dual-Branch Cross-Alignment Design for Action Transfer Based on Feature Distribution Patterns,” in Proc. ICONIP 2025, Japan, 2025. (CCF-C国际会议，EI)
+1. 	Q. Chen, Q.Qi(通讯作者),J. An, Z. Yang, M. Ying, X. Chen, and C. Huang, “Joint Resource Allocation of SIM-Aided Integrated Communication and Computation in 6G Networks”, in Proc. IEEE WCNC 2026, Kuala Lumpur, Malaysia, 2026, pp. 1-6.
+1. 	R. Jia, X. Chen and Q. Qi, “Low-Complexity Beamspace Massive Access for B5G Cellular Internet of Things,” in Proc. WCSP 2019, Xi'an, China, 2019, pp. 1-6. (国际会议，EI)
+1. 	J. Chu, X. Chen, Q. Qi, C. Zhong, H. Lin, and Z. Zhang, “On the Design of B5G MultiBeam LEO Satellite Internet of Things,” in Proc. IEEE VTC2020-Spring, Antwerp, Belgium, 2020, pp.1-6. (国际会议，EI)
+1. 	R. Fu, Q. Qi, C. Zhong, X. Chen, and Z. Zhang, “Block Error Rate Analysis of Short-Packet NOMA Communications with Imperfect SIC,” in Proc. IEEE/CIC ICCC 2020, Chongqing, China, 2020, pp.1-6. (国际会议，EI)
+1. 	Q. Wang, X. Chen, and Q. Qi, “Design of Delay-Optimal Robust Edge Computing in 6G Wireless Networks,” in Proc. WCSP 2022, Nanjing, China, 2022, pp. 1-6. (国际会议，EI)
+1. 	Q. Wang, X. Chen, and Q. Qi, “Joint Offloading Selection, Beamforming Design and Resource Allocation for Satellite-Terrestrial Computing,” in Proc. IEEE/CIC ICCC, Dalian, China, 2023, pp. 1-6. (国际会议，EI)
+1. 	Q. Wang, X. Chen, and Q. Qi, “Joint Communication Beamforming and Sensing Waveform Design of LEO Satellite Constellations,” IEEE WCNC 2024, Dubai, United Arab Emirates, 2024. (国际会议，EI)
+1. 	M. Ying, X. Chen, Q. Qi, and Z. Zhang, “Constellation Design of LEO Satellite Internet of Things With QoS Provision, ” IEEE VTC-Spring 2025, Oslo, Norway, 2025. (国际会议，EI)
 
 
