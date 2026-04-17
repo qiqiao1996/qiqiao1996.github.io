@@ -64,7 +64,7 @@ redirect_from:
 1. 	Q. Qi, X. Chen, C. Zhong, C. Yuen and Z. Zhang, “Deep Learning-based Design of Uplink Integrated Sensing and Communication”, IEEE Transactions on Wireless Communications, vol. 23, no. 9, pp. 10639-10652, Sep. 2024 (一区TOPSCI，IF= 10.7)
 1. 	Q. Qi, X. Chen, and C. Yuen, “Joint Offloading Selection and Resource Allocation for Integrated Localization and Computing in Edge-intelligent Networks”, IEEE Transactions on Vehicular Technology, vol. 73, no. 8, pp. 11427-11440, Aug. 2024. (二区TOPSCI，IF= 7.1)
 1. 	齐俏,陈晓明.面向边缘智能网络的通-感-算融合：架构、挑战和展望[J].移动通信,2024,48(03):40-46.
-1. 	Q.Qi, Q. Chen,  Z. Yang, X. Chen, C. Huang, and C. Yuen, “Task-Oriented Wave Processing: Forging 6G Service Symbiosis with Stacked Intelligent Metasurfaces”，Submitted to IEEE Communications Magazines. (二区TOPSCI，IF= 11.6)
+1. 	Q.Qi, Q. Chen,  J.An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “Task-Oriented Wave Processing: Forging 6G Service Symbiosis with Stacked Intelligent Metasurfaces”，IEEE Communications Magazines, Accept, 2026. (二区TOPSCI，IF= 8.3)
 1. 	Q. Chen, Q.Qi(通讯作者), J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “Stacked Intelligent Metasurface Enhanced Integrated Communication and Computation”， IEEE Internet of Things Journal,  doi: 10.1109/JIOT.2025.3649324. (一区TOPSCI，IF= 8.9)
 1. 	R. Jia, X. Chen, Q. Qi, and H. Lin, “Massive Beam Division Multiple Access for B5G Cellular Internet of Things, ” IEEE Internet of Things Journal, vol. 7, no. 3, pp. 2386-2396, Mar. 2020. ( 一区TOPSCI，IF= 8.9))
 1. 	Q. Wang, X. Chen, and Q. Qi, “Task-Driven Robust Integration of Communication and Computation for Edge-Intelligent Networks,” IEEE Transactions on Communications, vol. 71, no. 1, pp. 244-255, Jan. 2023.(一区TOPSCI，IF= 8.3)
