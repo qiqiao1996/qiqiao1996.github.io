@@ -64,7 +64,7 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 90px; }
 
 ### 2026
 
-- Q. Qi, Q. Chen, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Task-Oriented Wave Processing: Forging 6G Service Symbiosis with Stacked Intelligent Metasurfaces](https://scholar.google.com/scholar?q=%22Task-Oriented+Wave+Processing%3A+Forging+6G+Service+Symbiosis+with+Stacked+Intelligent+Metasurfaces%22),” *IEEE Communications Magazine*, accepted, 2026.
+- Q. Qi, Q. Chen, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Task-Oriented Wave Processing: Forging 6G Service Symbiosis with Stacked Intelligent Metasurfaces],” *IEEE Communications Magazine*, accepted, 2026.
 - Q. Chen, Q. Qi, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Stacked Intelligent Metasurface Enhanced Integrated Communication and Computation](https://doi.org/10.1109/JIOT.2025.3649324),” *IEEE Internet of Things Journal*, vol. 13, no. 7, pp. 14442–14453, Apr. 2026. [DOI](https://doi.org/10.1109/JIOT.2025.3649324)
 - M. Ying, X. Chen, Q. Qi, and Z. Zhang, “[QoS-Driven Satellite Constellation Design for LEO Satellite Internet of Things](https://doi.org/10.1109/TWC.2025.3605220),” *IEEE Transactions on Wireless Communications*, vol. 25, pp. 3610–3625, 2026. [DOI](https://doi.org/10.1109/TWC.2025.3605220) / [arXiv](https://arxiv.org/abs/2509.00345)
 - Q. Wang, X. Chen, Q. Qi, Z. Wang, and Y. Liu, “[Integration of Navigation and Remote Sensing in LEO Satellite Constellations](https://doi.org/10.1109/TCOMM.2025.3634253),” *IEEE Transactions on Communications*, vol. 74, pp. 581–597, 2026. [DOI](https://doi.org/10.1109/TCOMM.2025.3634253) / [arXiv](https://arxiv.org/abs/2511.12430)
