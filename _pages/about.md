@@ -65,7 +65,7 @@ redirect_from:
 1. 	Q. Qi, X. Chen, and C. Yuen, “Joint Offloading Selection and Resource Allocation for Integrated Localization and Computing in Edge-intelligent Networks”, IEEE Transactions on Vehicular Technology, vol. 73, no. 8, pp. 11427-11440, Aug. 2024. (二区TOPSCI，IF= 7.1)
 1. 	齐俏,陈晓明.面向边缘智能网络的通-感-算融合：架构、挑战和展望[J].移动通信,2024,48(03):40-46.
 1. 	Q.Qi, Q. Chen,  J.An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “Task-Oriented Wave Processing: Forging 6G Service Symbiosis with Stacked Intelligent Metasurfaces”，IEEE Communications Magazines, Accept, 2026. (二区TOPSCI，IF= 8.3)
-1. 	Q. Chen, Q.Qi(通讯作者), J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “Stacked Intelligent Metasurface Enhanced Integrated Communication and Computation”， IEEE Internet of Things Journal,  doi: 10.1109/JIOT.2025.3649324. (一区TOPSCI，IF= 8.9)
+1. 	Q. Chen, Q.Qi(通讯作者), J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “Stacked Intelligent Metasurface Enhanced Integrated Communication and Computation”， IEEE Internet of Things Journal,  vol. 13, no. 7, pp. 14442-14453, Apr. 2026. doi: 10.1109/JIOT.2025.3649324. (一区TOPSCI，IF= 8.9)
 1. 	R. Jia, X. Chen, Q. Qi, and H. Lin, “Massive Beam Division Multiple Access for B5G Cellular Internet of Things, ” IEEE Internet of Things Journal, vol. 7, no. 3, pp. 2386-2396, Mar. 2020. ( 一区TOPSCI，IF= 8.9))
 1. 	Q. Wang, X. Chen, and Q. Qi, “Task-Driven Robust Integration of Communication and Computation for Edge-Intelligent Networks,” IEEE Transactions on Communications, vol. 71, no. 1, pp. 244-255, Jan. 2023.(一区TOPSCI，IF= 8.3)
 1. 	Q. Wang, X. Chen, and Q. Qi, “Energy-Efficient Design of Satellite-Terrestrial Computing in 6G Wireless Networks,” IEEE Transactions on Communications, vol. 72, no. 3, pp. 1759-1772, Mar. 2023.(一区TOPSCI，IF= 8.3)
@@ -97,7 +97,7 @@ redirect_from:
 1. 齐俏，陈晓明：一种基于无线信息与能量协同传输的大规模接入方法。专利号：ZL201811564288.X。发明专利。授权时间：2020年3月。
 1. 齐俏，陈晓明：一种计算与通信融合的大规模接入方法。专利号：ZL201910603565.1。发明专利。授权时间：2021年1月。
 1. 齐俏，陈晓明：一种面向边缘智能网络的大规模接入方法。专利号：ZL202110049384.6。发明专利。授权时间：2021年11月
-1. 齐俏，陈晓明，张朝阳：一种无线网络中感知、计算和通信的融合方法。 专利号：。发明专利。授权时间： 2023年8月。
+1. 齐俏，陈晓明，张朝阳：一种无线网络中感知、计算和通信的融合方法。 专利号：ZL202111029984.2。发明专利。授权时间： 2023年8月。
 1. 齐俏，陈晓明，张朝阳：一种定位、通信和计算的融合方法。 专利号：ZL202210350401.4。发明专利。授权时间： 2025年2月。 
 1. 	齐俏，陈晓明，张朝阳：一种基于深度学习的通信和感知融合方法。 专利号：ZL202211249697.7。发明专利。授权时间： 2025年8月。 
 1. 齐俏，陈麒羽，钱正洪：一种堆叠智能超表面增强的通信和计算融合方法。专利号：ZL 202511679882.3。发明专利。
