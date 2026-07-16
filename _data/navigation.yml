@@ -1,12 +1,15 @@
 # main links
 main:
-  - title: "About Me"
+  - title: "About"
     url: "/#about"
   - title: "Research"
     url: "/#research"
-  - title: "Teaching"
+  - title: "Teaching & Openings"
     url: "/#teaching"
   - title: "Publications"
     url: "/#publications"
-  - title: "Honors and Awards"
+  - title: "Patents"
+    url: "/#patents"
+  - title: "Honors"
     url: "/#awards"
+
