@@ -1,10 +1,10 @@
 - date: "2026-07"
   category: "Publications"
-  content: "近期 4 篇论文被 *IEEE Vehicular Technology Magazine*、*IEEE Transactions on Cognitive Communications and Networking* 和 *ENGINEERING Information Technology & Electronic Engineering* 接收或上线。"
+  content: "论文 *Stacked Intelligent Metasurface-Aided Multi-Static Sensing and Cooperative Communication* 被 *ENGINEERING Information Technology & Electronic Engineering* 接收。
 
 - date: "2026-06"
   category: "Award"
-  content: "获第五届电子与信息前沿学术会议**优秀墙报**。"
+  content: "本科生陈麒羽的墙报“低空无人机网络中具身智能赋能的协作通感一体化与主动追踪研究”获第五届电子与信息前沿学术会议**优秀墙报**。"
 
 - date: "2026-05"
   category: "Honor"
@@ -12,12 +12,16 @@
 
 - date: "2026-04"
   category: "Award"
-  content: "获评 **6G 星辰博士**。"
+  content: "获评2026年全球6G技术与产业生态大会 **6G 星辰·博士**。"
 
-- date: "2026"
+- date: "2026-04"
   category: "Publication"
   content: "论文 *Task-Oriented Wave Processing: Forging 6G Service Symbiosis with Stacked Intelligent Metasurfaces* 被 *IEEE Communications Magazine* 接收。"
 
 - date: "2026-01"
   category: "Project"
   content: "主持的国家自然科学基金青年项目（C 类）“任务驱动的通信-感知-计算融合网络资源优化方法研究”正式启动。"
+
+  - date: "2025-12"
+  category: "Publications"
+  content: "本科生陈麒羽的论文*Stacked Intelligent Metasurface Enhanced Integrated Communication and Computation*被 *IEEE Internet of Things Jounral* 接收，并赴马来西亚参加IEEE WNCN 2026进行口头汇报"
