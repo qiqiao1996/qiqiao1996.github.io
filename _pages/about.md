@@ -203,7 +203,7 @@ html { scroll-behavior: smooth; }
 - Z. Liu, Z. Yang, Z. Zhang, <strong class="self-author">Q. Qi</strong>, Z. Zhang, and M. R. Shikh-Bahaei, “[Multi-Agent Reinforcement Learning for Diffusion-Based Token Communications in Robotic Networks](https://doi.org/10.1109/TCCN.2026.3712126),” *IEEE Transactions on Cognitive Communications and Networking*, accepted, 2026. [DOI](https://doi.org/10.1109/TCCN.2026.3712126)
 - <strong class="self-author">Q. Qi</strong>, Q. Chen, J. An, X. Chen, Z. Yang, C. Huang, and Z. Zhang, “[Stacked Intelligent Metasurface-Aided Multi-Static Sensing and Cooperative Communication](https://doi.org/10.1631/ENG.ITEE.2026.0137),” *ENGINEERING Information Technology & Electronic Engineering*, accepted, 2026. [DOI](https://doi.org/10.1631/ENG.ITEE.2026.0137)
 - Q. Wang, X. Chen, <strong class="self-author">Q. Qi</strong>, Z. Wang, and Y. Liu, “[Continuous Aperture Array-Assisted Integrated Communication and Navigation in Low-Earth Orbit Satellite Constellations](https://doi.org/10.1631/ENG.ITEE.2026.0090),” *ENGINEERING Information Technology & Electronic Engineering*, accepted, 2026. [DOI](https://doi.org/10.1631/ENG.ITEE.2026.0090)
-- <strong class="self-author">Q. Qi</strong>, Q. Chen, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Task-Oriented Wave Processing: Forging 6G Service Symbiosis with Stacked Intelligent Metasurfaces](https://scholar.google.com/scholar?q=%22Task-Oriented+Wave+Processing%3A+Forging+6G+Service+Symbiosis+with+Stacked+Intelligent+Metasurfaces%22),” *IEEE Communications Magazine*, accepted, 2026.
+- <strong class="self-author">Q. Qi</strong>, Q. Chen, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Task-Oriented Wave Processing: Forging 6G Service Symbiosis with Stacked Intelligent Metasurfaces](https://scholar.google.com/scholar?q=%22Task-Oriented+Wave+Processing%3A+Forging+6G+Service+Symbiosis+with+Stacked+Intelligent+Metasurfaces%22),” *IEEE Communications Magazine*, accepted, 2026. doi：[DOI](https://doi.org/10.1109/MCOM.001.2600075)
 - Q. Chen, <strong class="self-author corresponding-author">Q. Qi</strong>, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Stacked Intelligent Metasurface Enhanced Integrated Communication and Computation](https://doi.org/10.1109/JIOT.2025.3649324),” *IEEE Internet of Things Journal*, vol. 13, no. 7, pp. 14442–14453, Apr. 2026. [DOI](https://doi.org/10.1109/JIOT.2025.3649324)
 - M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and Z. Zhang, “[QoS-Driven Satellite Constellation Design for LEO Satellite Internet of Things](https://doi.org/10.1109/TWC.2025.3605220),” *IEEE Transactions on Wireless Communications*, vol. 25, pp. 3610–3625, 2026. [DOI](https://doi.org/10.1109/TWC.2025.3605220) / [arXiv](https://arxiv.org/abs/2509.00345)
 - Q. Wang, X. Chen, <strong class="self-author">Q. Qi</strong>, Z. Wang, and Y. Liu, “[Integration of Navigation and Remote Sensing in LEO Satellite Constellations](https://doi.org/10.1109/TCOMM.2025.3634253),” *IEEE Transactions on Communications*, vol. 74, pp. 581–597, 2026. [DOI](https://doi.org/10.1109/TCOMM.2025.3634253) / [arXiv](https://arxiv.org/abs/2511.12430)
@@ -314,7 +314,7 @@ html { scroll-behavior: smooth; }
 
 1. 2026 年 06 月，第五届电子与信息前沿学术会议优秀墙报。
 2. 2026 年 05 月，入选《电子与信息学报》2026 年度星航计划青年学者全国 60 强。
-3. 2026 年 04 月，6G 星辰博士。
+3. 2026 年 04 月，入选2026年全球6G技术与产业生态大会 6G 星辰·博士。
 4. 2023 年 12 月，中国电子教育学会优秀博士学位论文。
 5. 2023 年 12 月，浙江大学优秀博士学位论文。
 6. 2023 年 06 月，浙江大学信电学院优秀博士学位论文。
