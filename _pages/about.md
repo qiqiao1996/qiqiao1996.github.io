@@ -252,6 +252,7 @@ html { scroll-behavior: smooth; }
 ### 2026
 
 - Q. Chen, <strong class="self-author corresponding-author">Q. Qi</strong>, J. An, Z. Yang, M. Ying, X. Chen, and C. Huang, “[Joint Resource Allocation of SIM-Aided Integrated Communication and Computation in 6G Networks](https://scholar.google.com/scholar?q=%22Joint+Resource+Allocation+of+SIM-Aided+Integrated+Communication+and+Computation+in+6G+Networks%22),” in *Proc. IEEE WCNC*, Kuala Lumpur, Malaysia, 2026, pp. 1–6.
+- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and Y. Xu, “[On the Performance of Multiple-Layer LEO Satellite Internet of Things Constellations](https://scholar.google.com/scholar?q=%22On+the+Performance+of+Multiple-Layer+LEO+Satellite+Internet+of+Things+Constellations%22),” in *Proc. IEEE PIMRC*, Singapore, 2026, pp. 1–6.
 
 ### 2025
 
