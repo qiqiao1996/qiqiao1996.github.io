@@ -199,6 +199,10 @@ html { scroll-behavior: smooth; }
 
 ### 2026
 
+- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, Y. Xu, and J. Pan, “[LEO Satellite Internet of Things: Architecture, Technology, and On-Orbit Verification](https://doi.org/10.1109/MVT.2026.3714978),” *IEEE Vehicular Technology Magazine*, accepted, 2026. [DOI](https://doi.org/10.1109/MVT.2026.3714978)
+- Z. Liu, Z. Yang, Z. Zhang, <strong class="self-author">Q. Qi</strong>, Z. Zhang, and M. R. Shikh-Bahaei, “[Multi-Agent Reinforcement Learning for Diffusion-Based Token Communications in Robotic Networks](https://doi.org/10.1109/TCCN.2026.3712126),” *IEEE Transactions on Cognitive Communications and Networking*, accepted, 2026. [DOI](https://doi.org/10.1109/TCCN.2026.3712126)
+- <strong class="self-author">Q. Qi</strong>, Q. Chen, J. An, X. Chen, Z. Yang, C. Huang, and Z. Zhang, “[Stacked Intelligent Metasurface-Aided Multi-Static Sensing and Cooperative Communication](https://doi.org/10.1631/ENG.ITEE.2026.0137),” *ENGINEERING Information Technology & Electronic Engineering*, accepted, 2026. [DOI](https://doi.org/10.1631/ENG.ITEE.2026.0137)
+- Q. Wang, X. Chen, <strong class="self-author">Q. Qi</strong>, Z. Wang, and Y. Liu, “[Continuous Aperture Array-Assisted Integrated Communication and Navigation in Low-Earth Orbit Satellite Constellations](https://doi.org/10.1631/ENG.ITEE.2026.0090),” *ENGINEERING Information Technology & Electronic Engineering*, accepted, 2026. [DOI](https://doi.org/10.1631/ENG.ITEE.2026.0090)
 - <strong class="self-author">Q. Qi</strong>, Q. Chen, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Task-Oriented Wave Processing: Forging 6G Service Symbiosis with Stacked Intelligent Metasurfaces](https://scholar.google.com/scholar?q=%22Task-Oriented+Wave+Processing%3A+Forging+6G+Service+Symbiosis+with+Stacked+Intelligent+Metasurfaces%22),” *IEEE Communications Magazine*, accepted, 2026.
 - Q. Chen, <strong class="self-author corresponding-author">Q. Qi</strong>, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Stacked Intelligent Metasurface Enhanced Integrated Communication and Computation](https://doi.org/10.1109/JIOT.2025.3649324),” *IEEE Internet of Things Journal*, vol. 13, no. 7, pp. 14442–14453, Apr. 2026. [DOI](https://doi.org/10.1109/JIOT.2025.3649324)
 - M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and Z. Zhang, “[QoS-Driven Satellite Constellation Design for LEO Satellite Internet of Things](https://doi.org/10.1109/TWC.2025.3605220),” *IEEE Transactions on Wireless Communications*, vol. 25, pp. 3610–3625, 2026. [DOI](https://doi.org/10.1109/TWC.2025.3605220) / [arXiv](https://arxiv.org/abs/2509.00345)
@@ -308,19 +312,21 @@ html { scroll-behavior: smooth; }
   <p>记录在学术研究、人才培养与综合表现方面获得的代表性荣誉。</p>
 </header>
 
-1. 2019 年 09 月，国家奖学金。
-2. 2020 年 04 月，华为菁英奖学金。
-3. 2020 年 06 月，浙江大学学生十大学术新成果奖。
-4. 2020 年 09 月，浙江大学竺可桢奖学金。
-5. 2020 年 12 月，浙江大学十佳大学生。
-6. 2021 年 06 月，浙江大学优秀共产党员。
-7. 2021 年 12 月，华为奖学金、大华奖学金。
+1. 2026 年 06 月，第五届电子与信息前沿学术会议优秀墙报。
+2. 2026 年 05 月，入选《电子与信息学报》2026 年度星航计划青年学者全国 60 强。
+3. 2026 年 04 月，6G 星辰博士。
+4. 2023 年 12 月，中国电子教育学会优秀博士学位论文。
+5. 2023 年 12 月，浙江大学优秀博士学位论文。
+6. 2023 年 06 月，浙江大学信电学院优秀博士学位论文。
+7. 2023 年 06 月，浙江省优秀毕业生。
 8. 2022 年 12 月，国睿奖学金、ISEE 荣誉学子、IEEE 通信学会学生奖。
-9. 2023 年 06 月，浙江省优秀毕业生。
-10. 2023 年 06 月，浙江大学信电学院优秀博士学位论文。
-11. 2023 年 12 月，浙江大学优秀博士学位论文。
-12. 2023 年 12 月，中国电子教育学会优秀博士学位论文。
-13. 2026 年 04 月，6G 星辰博士。
+9. 2021 年 12 月，华为奖学金、大华奖学金。
+10. 2021 年 06 月，浙江大学优秀共产党员。
+11. 2020 年 12 月，浙江大学十佳大学生。
+12. 2020 年 09 月，浙江大学竺可桢奖学金。
+13. 2020 年 06 月，浙江大学学生十大学术新成果奖。
+14. 2020 年 04 月，华为菁英奖学金。
+15. 2019 年 09 月，国家奖学金。
 </div>
 
 <script>
