@@ -6,12 +6,25 @@ author_profile: true
 
 <style>
 html { scroll-behavior: smooth; }
-.page__content { line-height: 1.75; }
-.page__content li { margin-bottom: .65rem; }
-.page__content h2 { margin-top: 2rem; padding-bottom: .55rem; border-bottom: 1px solid #dce9e8; color: #073d52; }
-.page__content h3 { margin-top: 1.55rem; color: #0b5c78; }
+.page__title { display: none; }
+.page__content { line-height: 1.75; color: #243746; }
+.section-hero { margin: 0 0 2rem; padding: 2rem 2.2rem; border: 1px solid #d7e8e7; border-radius: 20px; background: linear-gradient(135deg,#f7fbfa,#eaf5f4); box-shadow: 0 14px 36px rgba(7,61,82,.08); }
+.section-kicker { display: inline-block; margin-bottom: .65rem; color: #0b7180; font-size: .74rem; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
+.section-hero h1 { margin: 0; color: #073d52; font-size: clamp(1.7rem,4vw,2.45rem); }
+.section-hero p { margin: .75rem 0 0; color: #57707b; }
+.page__content > ol { position: relative; margin-left: .45rem; padding: 0 0 0 1.8rem; list-style: none; }
+.page__content > ol:before { content: ""; position: absolute; left: .35rem; top: .5rem; bottom: .6rem; width: 2px; background: linear-gradient(#0f8794,#d9eae8); }
+.page__content > ol > li { position: relative; margin: 0 0 .8rem; padding: .95rem 1.1rem; border: 1px solid #e0ecea; border-radius: 13px; background: #fff; box-shadow: 0 7px 20px rgba(12,65,77,.045); }
+.page__content > ol > li:before { content: ""; position: absolute; left: -1.9rem; top: 1.35rem; width: .72rem; height: .72rem; border: 3px solid #fff; border-radius: 50%; background: #0f8794; box-shadow: 0 0 0 1px #91c9c8; }
+.page__content > ol > li:last-child { border-color: #bcdedb; background: linear-gradient(135deg,#f5fbfa,#ecf7f5); font-weight: 700; color: #073d52; }
+@media (max-width: 600px) { .section-hero { padding: 1.5rem; border-radius: 16px; } }
 </style>
 
+<header class="section-hero">
+  <span class="section-kicker">Honors & Awards</span>
+  <h1>奖励与荣誉</h1>
+  <p>记录在学术研究、人才培养与综合表现方面获得的代表性荣誉。</p>
+</header>
 
 1. 2019 年 09 月，国家奖学金。
 2. 2020 年 04 月，华为菁英奖学金。
