@@ -16,22 +16,119 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <style>
+:root {
+  --academic-ink: #132238;
+  --academic-muted: #5c6b7a;
+  --academic-blue: #0b5c78;
+  --academic-blue-dark: #073d52;
+  --academic-cyan: #21a6a1;
+  --academic-wash: #f2f8f8;
+  --academic-line: #dce9e8;
+}
 html { scroll-behavior: smooth; }
-h1[id], h2[id], h3[id] { scroll-margin-top: 90px; }
-.publication-list li { margin-bottom: 0.55em; }
+h1[id], h2[id], h3[id] { scroll-margin-top: 92px; }
+.page__content { color: var(--academic-ink); }
+.page__content a { color: var(--academic-blue); text-decoration-color: rgba(11, 92, 120, .35); }
+.page__content a:hover { color: var(--academic-blue-dark); }
+.academic-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 2.6rem;
+  padding: clamp(2rem, 5vw, 4rem);
+  border-radius: 26px;
+  color: #fff;
+  background:
+    radial-gradient(circle at 88% 18%, rgba(83, 220, 207, .35), transparent 30%),
+    radial-gradient(circle at 72% 88%, rgba(74, 146, 214, .28), transparent 34%),
+    linear-gradient(135deg, #082f43 0%, #0b5c78 58%, #117f88 100%);
+  box-shadow: 0 22px 55px rgba(7, 61, 82, .18);
+}
+.academic-hero:after {
+  content: "";
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  right: -105px;
+  top: -115px;
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 50%;
+  box-shadow: 0 0 0 34px rgba(255,255,255,.04), 0 0 0 68px rgba(255,255,255,.03);
+}
+.hero-kicker { margin: 0 0 .65rem; font-size: .82rem; font-weight: 700; letter-spacing: .17em; text-transform: uppercase; color: #a7eee7; }
+.academic-hero h1 { max-width: 760px; margin: 0; font-size: clamp(2.05rem, 5.2vw, 4rem); line-height: 1.04; letter-spacing: -.045em; color: #fff; }
+.academic-hero h1:before { display: none; }
+.hero-subtitle { max-width: 720px; margin: 1rem 0 .35rem; font-size: clamp(1.05rem, 2vw, 1.35rem); line-height: 1.55; color: rgba(255,255,255,.92); }
+.hero-role { margin: 0 0 1.4rem; color: rgba(255,255,255,.72); }
+.hero-links { display: flex; flex-wrap: wrap; gap: .7rem; }
+.hero-links a { display: inline-flex; align-items: center; gap: .4rem; padding: .72rem 1rem; border: 1px solid rgba(255,255,255,.32); border-radius: 999px; color: #fff; font-weight: 700; text-decoration: none; background: rgba(255,255,255,.09); backdrop-filter: blur(8px); transition: transform .18s ease, background .18s ease; }
+.hero-links a:hover { color: #fff; background: rgba(255,255,255,.18); transform: translateY(-2px); }
+.hero-links a.primary { color: var(--academic-blue-dark); background: #fff; border-color: #fff; }
+.metric-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .8rem; margin: -1.25rem 1.25rem 2.8rem; position: relative; z-index: 2; }
+.metric-card { padding: 1rem 1.1rem; border: 1px solid var(--academic-line); border-radius: 16px; background: rgba(255,255,255,.97); box-shadow: 0 10px 28px rgba(19,34,56,.08); }
+.metric-value { display: block; font-size: 1.3rem; font-weight: 800; color: var(--academic-blue-dark); }
+.metric-label { display: block; margin-top: .2rem; font-size: .76rem; line-height: 1.35; color: var(--academic-muted); }
+.section-heading { display: flex; align-items: center; gap: .75rem; margin: 3rem 0 1.1rem; padding-bottom: .75rem; border-bottom: 1px solid var(--academic-line); font-size: clamp(1.35rem, 2.6vw, 1.8rem); color: var(--academic-ink); }
+.section-heading:before { content: ""; display: block; width: 5px; height: 1.2em; border-radius: 99px; background: linear-gradient(var(--academic-cyan), var(--academic-blue)); }
+.section-heading span { margin-left: auto; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--academic-blue); }
+.intro-copy { font-size: 1.02rem; line-height: 1.85; }
+.research-focus { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: .9rem; margin: 1.5rem 0 2.5rem; }
+.focus-card { padding: 1.15rem 1.2rem; border: 1px solid var(--academic-line); border-radius: 16px; background: linear-gradient(145deg, #fff, var(--academic-wash)); }
+.focus-card strong { display: block; margin-bottom: .3rem; color: var(--academic-blue-dark); }
+.focus-card small { color: var(--academic-muted); line-height: 1.5; }
+.recruitment-box { margin: 1.3rem 0 1.6rem; padding: 1.35rem 1.5rem; border: 1px solid #b9dfdc; border-left: 5px solid var(--academic-cyan); border-radius: 14px; background: var(--academic-wash); }
+.recruitment-box strong { color: var(--academic-blue-dark); }
+.contact-strip { display: flex; flex-wrap: wrap; gap: .65rem 1.2rem; margin: 1.2rem 0 2.4rem; padding: 1rem 1.2rem; border-radius: 12px; background: #132238; color: #fff; }
+.contact-strip a { color: #b8f4ed; text-decoration: none; }
+.page__content > ol { padding-left: 1.35rem; }
+.page__content > ol li { margin-bottom: .65rem; padding-left: .25rem; }
+#publications + h2 { margin-top: 1.75rem; }
+#publications ~ h2 { margin-top: 2.2rem; padding: .75rem 1rem; border-radius: 12px; color: var(--academic-blue-dark); background: var(--academic-wash); }
+.page__content h3 { margin-top: 1.7rem; color: var(--academic-blue); }
+.page__content ul li { margin-bottom: .65rem; line-height: 1.65; }
+@media (max-width: 760px) {
+  .academic-hero { margin-left: -.6rem; margin-right: -.6rem; padding: 2rem 1.35rem; border-radius: 20px; }
+  .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); margin: -1rem 0 2.4rem; }
+  .research-focus { grid-template-columns: 1fr; }
+  .hero-links a { flex: 1 1 auto; justify-content: center; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .hero-links a { transition: none; } }
 </style>
 
-# Welcome to Qi Qiao's Homepage
+<header class="academic-hero">
+  <p class="hero-kicker">Qi Qiao · 齐俏</p>
+  <h1>Wireless Intelligence<br>for 6G</h1>
+  <p class="hero-subtitle">面向 6G 的通信、感知与计算融合研究</p>
+  <p class="hero-role">讲师 · 硕士生导师 · 杭州师范大学</p>
+  <div class="hero-links">
+    <a class="primary" href="https://scholar.google.com/citations?user=pBR9kbMAAAAJ&amp;hl=en">Google Scholar</a>
+    <a href="https://orcid.org/0000-0002-5120-6186">ORCID</a>
+    <a href="mailto:qiqiao@hznu.edu.cn">Email</a>
+  </div>
+</header>
 
-<h1 id="about">个人简介 / About Me</h1>
+<div class="metric-grid" aria-label="Academic highlights">
+  <div class="metric-card"><span class="metric-value">近 1000</span><span class="metric-label">Google Scholar 引用</span></div>
+  <div class="metric-card"><span class="metric-value">十余篇</span><span class="metric-label">第一 / 通讯作者 SCI 论文</span></div>
+  <div class="metric-card"><span class="metric-value">2 项</span><span class="metric-label">国家级与省级青年项目主持</span></div>
+  <div class="metric-card"><span class="metric-value">1 部</span><span class="metric-label">Springer 学术专著</span></div>
+</div>
 
-齐俏，讲师，硕士生导师，浙江大学信息与通信工程博士。研究方向为无线通信，包括 6G 关键技术、新一代边缘智能网络、通感算一体化及人工智能与无线通信交叉等前沿领域的研究。目前，主持国家自然科学基金青年项目（C 类）及浙江省自然科学基金青年项目各 1 项，以第一/通讯作者在 *IEEE TWC*、*IEEE TSP*、*IEEE TCOM*、*SCIS* 等期刊发表 SCI 论文十余篇，在 *IEEE GLOBECOM* 等旗舰会议发表 EI 论文多篇，总引用近 1000 次；第一发明人获授权国家发明专利多项，出版学术专著 1 部。担任无线通信领域多个权威期刊和重要国际会议的审稿人，并担任 *IEEE GLOBECOM*、WCSP、*IEEE WCNC* 等国际会议的技术委员会成员。
+<h1 class="section-heading" id="about">个人简介 <span>About Me</span></h1>
 
-<h1 id="teaching">教学与招生 / Teaching</h1>
+<p class="intro-copy">齐俏，讲师，硕士生导师，浙江大学信息与通信工程博士。研究方向为无线通信，包括 6G 关键技术、新一代边缘智能网络、通感算一体化及人工智能与无线通信交叉等前沿领域的研究。目前，主持国家自然科学基金青年项目（C 类）及浙江省自然科学基金青年项目各 1 项，以第一/通讯作者在 <em>IEEE TWC</em>、<em>IEEE TSP</em>、<em>IEEE TCOM</em>、<em>SCIS</em> 等期刊发表 SCI 论文十余篇，在 <em>IEEE GLOBECOM</em> 等旗舰会议发表 EI 论文多篇，总引用近 1000 次；第一发明人获授权国家发明专利多项，出版学术专著 1 部。担任无线通信领域多个权威期刊和重要国际会议的审稿人，并担任 <em>IEEE GLOBECOM</em>、WCSP、<em>IEEE WCNC</em> 等国际会议的技术委员会成员。</p>
+
+<div class="research-focus">
+  <div class="focus-card"><strong>通感算一体化</strong><small>Integrated sensing, communication &amp; computing</small></div>
+  <div class="focus-card"><strong>边缘智能网络</strong><small>Edge intelligence &amp; resource optimization</small></div>
+  <div class="focus-card"><strong>6G 无线通信</strong><small>6G wireless systems &amp; intelligent metasurfaces</small></div>
+  <div class="focus-card"><strong>卫星物联网</strong><small>LEO satellite IoT &amp; satellite–terrestrial networks</small></div>
+</div>
+
+<h1 class="section-heading" id="teaching">教学与招生 <span>Teaching &amp; Openings</span></h1>
 
 主讲课程包括 Web 服务器端开发、数据库原理与应用、计算机前沿与科创讲座等。
 
-欢迎对无线通信、人工智能、边缘智能、通感算一体化和 6G 等方向有浓厚兴趣，且态度端正认真、理论功底扎实的同学加入课题组。每年招收 1 名硕士生，同时欢迎感兴趣的大二、大三学生提前参与科研训练。
+<div class="recruitment-box"><strong>欢迎加入课题组</strong><br>欢迎对无线通信、人工智能、边缘智能、通感算一体化和 6G 等方向有浓厚兴趣，且态度端正认真、理论功底扎实的同学加入课题组。每年招收 1 名硕士生，同时欢迎感兴趣的大二、大三学生提前参与科研训练。</div>
 
 加入本课题组的学生可以享受待遇如下：
 
@@ -41,9 +138,9 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 90px; }
 4. 不安排学生做与科研无关的杂事，为学生营造良好的科研环境；
 5. 发放额外助研金，并设置丰富的劳务津贴、科研成果奖励。
 
-联系请附个人简历和成绩单，邮箱：qiqiao@hznu.edu.cn 或 qiqiaozju@163.com。
+<div class="contact-strip"><strong>申请联系</strong><a href="mailto:qiqiao@hznu.edu.cn">qiqiao@hznu.edu.cn</a><a href="mailto:qiqiaozju@163.com">qiqiaozju@163.com</a><span>请附个人简历与成绩单</span></div>
 
-<h1 id="research">科研项目 / Research</h1>
+<h1 class="section-heading" id="research">科研项目 <span>Research</span></h1>
 
 1. 国家自然科学基金青年项目（C 类），任务驱动的通信-感知-计算融合网络资源优化方法研究，主持，在研，2026.01–2028.12。
 2. 浙江省自然科学基金青年项目，基于多基站协作的 6G 通感算一体化多维资源管理技术研究，主持，在研，2025.01–2026.12。
@@ -54,17 +151,19 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 90px; }
 7. 国家自然科学基金区创重点项目，低轨卫星物联网的移动覆盖和巨址接入理论与关键技术，参与，结题，2022.01–2025.12。
 8. 华为公司合作项目，有限位宽均衡算法研究，参与，结题，2020–2021。
 
-<h2 id="book">学术专著 / Book</h2>
+<h2 class="section-heading" id="book">学术专著 <span>Book</span></h2>
 
 1. X. Chen and Q. Qi, [*Convergence of Energy, Communication and Computation in B5G Cellular Internet of Things*](https://doi.org/10.1007/978-981-15-4140-7_1), Germany: Springer, 2020.
 
-<h1 id="publications">论文发表 / Publications</h1>
+<h1 class="section-heading" id="publications">论文发表 <span>Publications</span></h1>
+
+<p>完整论文与最新引用数据请访问 <a href="https://scholar.google.com/citations?user=pBR9kbMAAAAJ&amp;hl=en"><strong>Google Scholar</strong></a>；研究者身份记录见 <a href="https://orcid.org/0000-0002-5120-6186"><strong>ORCID</strong></a>。</p>
 
 ## Journal Papers
 
 ### 2026
 
-- Q. Qi, Q. Chen, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Task-Oriented Wave Processing: Forging 6G Service Symbiosis with Stacked Intelligent Metasurfaces],” *IEEE Communications Magazine*, accepted, 2026.
+- Q. Qi, Q. Chen, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Task-Oriented Wave Processing: Forging 6G Service Symbiosis with Stacked Intelligent Metasurfaces](https://scholar.google.com/scholar?q=%22Task-Oriented+Wave+Processing%3A+Forging+6G+Service+Symbiosis+with+Stacked+Intelligent+Metasurfaces%22),” *IEEE Communications Magazine*, accepted, 2026.
 - Q. Chen, Q. Qi, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Stacked Intelligent Metasurface Enhanced Integrated Communication and Computation](https://doi.org/10.1109/JIOT.2025.3649324),” *IEEE Internet of Things Journal*, vol. 13, no. 7, pp. 14442–14453, Apr. 2026. [DOI](https://doi.org/10.1109/JIOT.2025.3649324)
 - M. Ying, X. Chen, Q. Qi, and Z. Zhang, “[QoS-Driven Satellite Constellation Design for LEO Satellite Internet of Things](https://doi.org/10.1109/TWC.2025.3605220),” *IEEE Transactions on Wireless Communications*, vol. 25, pp. 3610–3625, 2026. [DOI](https://doi.org/10.1109/TWC.2025.3605220) / [arXiv](https://arxiv.org/abs/2509.00345)
 - Q. Wang, X. Chen, Q. Qi, Z. Wang, and Y. Liu, “[Integration of Navigation and Remote Sensing in LEO Satellite Constellations](https://doi.org/10.1109/TCOMM.2025.3634253),” *IEEE Transactions on Communications*, vol. 74, pp. 581–597, 2026. [DOI](https://doi.org/10.1109/TCOMM.2025.3634253) / [arXiv](https://arxiv.org/abs/2511.12430)
@@ -145,7 +244,7 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 90px; }
 - Q. Qi, X. Chen, L. Lei, C. Zhong, and Z. Zhang, “[Robust Convergence of Energy and Computation for B5G Cellular Internet of Things](https://scholar.google.com/scholar?q=%22Robust+Convergence+of+Energy+and+Computation+for+B5G+Cellular+Internet+of+Things%22),” in *Proc. IEEE GLOBECOM*, Hawaii, USA, 2019, pp. 1–6.
 - R. Jia, X. Chen, and Q. Qi, “[Low-Complexity Beamspace Massive Access for B5G Cellular Internet of Things](https://scholar.google.com/scholar?q=%22Low-Complexity+Beamspace+Massive+Access+for+B5G+Cellular+Internet+of+Things%22),” in *Proc. WCSP*, Xi'an, China, 2019, pp. 1–6.
 
-<h1 id="patents">发明专利 / Patents</h1>
+<h1 class="section-heading" id="patents">发明专利 <span>Patents</span></h1>
 
 1. 齐俏，陈晓明：一种基于无线信息与能量协同传输的大规模接入方法。专利号：ZL201811564288.X。发明专利。授权时间：2020 年 3 月。
 2. 齐俏，陈晓明：一种计算与通信融合的大规模接入方法。专利号：ZL201910603565.1。发明专利。授权时间：2021 年 1 月。
@@ -159,7 +258,7 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 90px; }
 10. 王琦，陈晓明，齐俏，张朝阳：一种星地联合的边缘计算方法。专利号：ZL202210977079.8。发明专利。授权时间：2025 年 2 月。
 11. 王琦，陈晓明，齐俏，张朝阳：一种基于多星协作的信息通信和位置感知一体化设计方法。专利号：202311059330.3。发明专利。
 
-<h1 id="awards">奖励与荣誉 / Honors and Awards</h1>
+<h1 class="section-heading" id="awards">奖励与荣誉 <span>Honors &amp; Awards</span></h1>
 
 1. 2019 年 09 月，国家奖学金。
 2. 2020 年 04 月，华为菁英奖学金。
