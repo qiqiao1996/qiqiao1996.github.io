@@ -109,7 +109,7 @@ html { scroll-behavior: smooth; }
 <div class="content-view" data-view="home" id="home" markdown="1">
 <h1 class="profile-heading" id="about">个人简介 <span>About Me</span></h1>
 
-<p class="intro-copy">齐俏，讲师，硕士生导师，浙江大学信息与通信工程博士。研究方向为无线通信，包括 6G 关键技术、新一代边缘智能网络、通感算一体化及人工智能与无线通信交叉等前沿领域的研究。目前，主持国家自然科学基金青年项目（C 类）及浙江省自然科学基金青年项目各 1 项，以第一/通讯作者在 <em>IEEE TWC</em>、<em>IEEE TSP</em>、<em>IEEE TCOM</em>、<em>SCIS</em> 等期刊发表 SCI 论文十余篇，在 <em>IEEE GLOBECOM</em> 等旗舰会议发表 EI 论文多篇，Google Scholar 总引用已<strong>超过 1000 次</strong>；第一发明人获授权国家发明专利多项，出版学术专著 1 部。担任无线通信领域多个权威期刊和重要国际会议的审稿人，并担任 <em>IEEE GLOBECOM</em>、WCSP、<em>IEEE WCNC</em> 等国际会议的技术委员会成员。对本人科研方向感兴趣的同学欢迎发简历至**qiqiao@hznu.edu.cn** or **qiqiaozju@163.com**.</p>
+<p class="intro-copy">齐俏，讲师，硕士生导师，浙江大学信息与通信工程博士。研究方向为无线通信，包括 6G 关键技术、新一代边缘智能网络、通感算一体化及人工智能与无线通信交叉等前沿领域的研究。目前，主持国家自然科学基金青年项目（C 类）及浙江省自然科学基金青年项目各 1 项，以第一/通讯作者在 <em>IEEE TWC</em>、<em>IEEE TSP</em>、<em>IEEE TCOM</em>、<em>SCIS</em> 等期刊发表 SCI 论文十余篇，在 <em>IEEE GLOBECOM</em> 等旗舰会议发表 EI 论文多篇，Google Scholar 总引用已<strong>超过 1000 次</strong>；第一发明人获授权国家发明专利多项，出版学术专著 1 部。担任无线通信领域多个权威期刊和重要国际会议的审稿人，并担任 <em>IEEE GLOBECOM</em>、WCSP、<em>IEEE WCNC</em> 等国际会议的技术委员会成员。对本人科研方向感兴趣的同学欢迎发简历至*qiqiao@hznu.edu.cn* or *qiqiaozju@163.com*.</p>
 
 <p class="research-label">Research Interests</p>
 <div class="research-tags" aria-label="Research interests">
