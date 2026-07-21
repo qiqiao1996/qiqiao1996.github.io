@@ -67,9 +67,15 @@ html { scroll-behavior: smooth; }
 
 [data-view="publications"] .profile-links { display: block; margin: 0 0 1rem; padding: .85rem 1rem; border: 1px solid #e0ecea; border-radius: 12px; background: #fff; color: #637980; font-size: .92rem; }
 .author-note { margin: 0 0 2rem; color: #6e8389; font-size: .86rem; }
-.author-note strong,.self-author { color: #063f55; font-weight: 800; }
+.author-note strong { color: #063f55; font-weight: 800; }
+.self-author { color: #b42318; font-weight: 800; }
 .corresponding-author:after { content: "*"; position: relative; top: -.42em; margin-left: .08em; color: #c34d32; font-size: .72em; font-weight: 900; }
 .corresponding-symbol { color: #c34d32; font-weight: 900; }
+.highly-cited-icon { display: inline-block; margin-left: .35rem; font-size: .92em; line-height: 1; vertical-align: .08em; }
+.publication-award { color: #963c32; font-weight: 700; }
+.page-views { display: flex; align-items: center; justify-content: center; gap: .45rem; margin: 2rem 0 0; padding: .8rem 1rem; border-top: 1px solid var(--academic-line); color: var(--academic-muted); font-size: .84rem; text-align: center; }
+.page-views[hidden] { display: none !important; }
+.page-views strong { color: var(--academic-blue); font-variant-numeric: tabular-nums; }
 [data-view="publications"] h2 { border-bottom: 2px solid #dceae8; font-size: 1.42rem; }
 [data-view="publications"] h3 { display: inline-block; margin: 1.45rem 0 .75rem; padding: .28rem .72rem; border-radius: 999px; background: #e8f4f2; color: #087884; font-size: .9rem; letter-spacing: .04em; }
 [data-view="publications"] > ul { margin: 0; padding: 0; list-style: none; }
@@ -101,6 +107,7 @@ html { scroll-behavior: smooth; }
   .section-hero { padding: 1.5rem; border-radius: 16px; }
   .course-list { grid-template-columns: 1fr; }
   .news-item { grid-template-columns: 1fr; gap: .35rem; }
+  .page-views { flex-wrap: wrap; }
   .greedy-nav .visible-links { max-width: 100%; overflow-x: auto; white-space: nowrap; }
 }
 </style>
@@ -133,6 +140,11 @@ html { scroll-behavior: smooth; }
   {% endfor %}
   </div>
 </section>
+
+<div id="page-views" class="page-views" aria-live="polite" hidden>
+  <span>主页访问量 / Page Views:</span>
+  <span id="busuanzi_container_page_pv" style="display:none"><strong id="busuanzi_value_page_pv"></strong></span>
+</div>
 </div>
 
 <div class="content-view" data-view="research" id="research" hidden markdown="1">
@@ -193,9 +205,10 @@ html { scroll-behavior: smooth; }
 
 <p class="profile-links">完整论文与最新引用数据请访问 <a href="https://scholar.google.com/citations?user=pBR9kbMAAAAJ&amp;hl=en"><strong>Google Scholar</strong></a>；研究者身份记录见 <a href="https://orcid.org/0000-0002-5120-6186"><strong>ORCID</strong></a>。</p>
 
-<p class="author-note"><strong>&#21152;&#31895;&#22995;&#21517;</strong>&#20026;&#26412;&#20154;&#65307;<span class="corresponding-symbol" aria-hidden="true">*</span> &#34920;&#31034;&#36890;&#35759;&#20316;&#32773;&#12290;</p>
+<p class="author-note"><strong>加粗红色姓名</strong>为本人；<span class="corresponding-symbol" aria-hidden="true">*</span> 通讯作者 / Corresponding author。</p>
 
-## Journal Papers
+<!-- Counts are fallback values; JavaScript refreshes them from the rendered paper lists. -->
+<h2 data-paper-count-label="Journal Papers">Journal Papers (26)</h2>
 
 ### 2026
 
@@ -216,9 +229,9 @@ html { scroll-behavior: smooth; }
 
 ### 2024
 
-- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, C. Yuen, and Z. Zhang, “[Deep Learning-Based Design of Uplink Integrated Sensing and Communication](https://doi.org/10.1109/TWC.2024.3373797),” *IEEE Transactions on Wireless Communications*, vol. 23, no. 9, pp. 10639–10652, Sep. 2024. [DOI](https://doi.org/10.1109/TWC.2024.3373797) / [arXiv](https://arxiv.org/abs/2403.01480)
+- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, C. Yuen, and Z. Zhang, “[Deep Learning-Based Design of Uplink Integrated Sensing and Communication](https://doi.org/10.1109/TWC.2024.3373797),” *IEEE Transactions on Wireless Communications*, vol. 23, no. 9, pp. 10639–10652, Sep. 2024. [DOI](https://doi.org/10.1109/TWC.2024.3373797) / [arXiv](https://arxiv.org/abs/2403.01480) <span class="highly-cited-icon" role="img" aria-label="Highly Cited Paper" title="Highly Cited Paper">👑</span>
 - <strong class="self-author">Q. Qi</strong>, X. Chen, and C. Yuen, “[Joint Offloading Selection and Resource Allocation for Integrated Localization and Computing in Edge-Intelligent Networks](https://doi.org/10.1109/TVT.2024.3374705),” *IEEE Transactions on Vehicular Technology*, vol. 73, no. 8, pp. 11427–11440, Aug. 2024. [DOI](https://doi.org/10.1109/TVT.2024.3374705)
-- <strong>齐俏</strong>，陈晓明, “[面向边缘智能网络的通-感-算融合：架构、挑战和展望](https://scholar.google.com/scholar?q=%22%E9%9D%A2%E5%90%91%E8%BE%B9%E7%BC%98%E6%99%BA%E8%83%BD%E7%BD%91%E7%BB%9C%E7%9A%84%E9%80%9A-%E6%84%9F-%E7%AE%97%E8%9E%8D%E5%90%88%EF%BC%9A%E6%9E%B6%E6%9E%84%E3%80%81%E6%8C%91%E6%88%98%E5%92%8C%E5%B1%95%E6%9C%9B%22),” *移动通信*, vol. 48, no. 3, pp. 40–46, 2024.
+- <strong class="self-author">齐俏</strong>，陈晓明, “[面向边缘智能网络的通-感-算融合：架构、挑战和展望](https://scholar.google.com/scholar?q=%22%E9%9D%A2%E5%90%91%E8%BE%B9%E7%BC%98%E6%99%BA%E8%83%BD%E7%BD%91%E7%BB%9C%E7%9A%84%E9%80%9A-%E6%84%9F-%E7%AE%97%E8%9E%8D%E5%90%88%EF%BC%9A%E6%9E%B6%E6%9E%84%E3%80%81%E6%8C%91%E6%88%98%E5%92%8C%E5%B1%95%E6%9C%9B%22),” *移动通信*, vol. 48, no. 3, pp. 40–46, 2024.
 - M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and W. Gerstacker, “[Deep Learning-Based Joint Channel Prediction and Multibeam Precoding for LEO Satellite Internet of Things](https://doi.org/10.1109/TWC.2024.3406952),” *IEEE Transactions on Wireless Communications*, vol. 23, no. 10, pp. 13946–13960, Oct. 2024. [DOI](https://doi.org/10.1109/TWC.2024.3406952) / [arXiv](https://arxiv.org/abs/2405.17150)
 
 ### 2023
@@ -247,7 +260,7 @@ html { scroll-behavior: smooth; }
 - <strong class="self-author">Q. Qi</strong> and X. Chen, “[Wireless Powered Massive Access for Cellular Internet of Things With Imperfect SIC and Non-Linear EH](https://doi.org/10.1109/JIOT.2018.2878860),” *IEEE Internet of Things Journal*, vol. 6, no. 2, pp. 3110–3120, Apr. 2019. [DOI](https://doi.org/10.1109/JIOT.2018.2878860)
 - <strong class="self-author">Q. Qi</strong>, X. Chen, L. Lei, C. Zhong, and Z. Zhang, “[Outage-Constrained Robust Design for Sustainable B5G Cellular Internet of Things](https://doi.org/10.1109/TWC.2019.2938962),” *IEEE Transactions on Wireless Communications*, vol. 18, no. 12, pp. 5780–5790, Dec. 2019. [DOI](https://doi.org/10.1109/TWC.2019.2938962)
 
-## Conference Papers
+<h2 data-paper-count-label="Conference Papers">Conference Papers (15)</h2>
 
 ### 2026
 
@@ -270,7 +283,7 @@ html { scroll-behavior: smooth; }
 
 ### 2022
 
-- <strong class="self-author">Q. Qi</strong>, X. Chen, and C. Yuen, “[Joint Resource Allocation for Integrated Localization and Computing in Edge-Intelligent Networks](https://scholar.google.com/scholar?q=%22Joint+Resource+Allocation+for+Integrated+Localization+and+Computing+in+Edge-Intelligent+Networks%22),” in *Proc. IEEE GLOBECOM*, Rio de Janeiro, Brazil, 2022, pp. 800–806.
+- <strong class="self-author">Q. Qi</strong>, X. Chen, and C. Yuen, “[Joint Resource Allocation for Integrated Localization and Computing in Edge-Intelligent Networks](https://scholar.google.com/scholar?q=%22Joint+Resource+Allocation+for+Integrated+Localization+and+Computing+in+Edge-Intelligent+Networks%22),” in *Proc. IEEE GLOBECOM*, Rio de Janeiro, Brazil, 2022, pp. 800–806. <span class="publication-award">（获 IEEE Student Travel Grant）</span>
 - Q. Wang, X. Chen, and <strong class="self-author">Q. Qi</strong>, “[Design of Delay-Optimal Robust Edge Computing in 6G Wireless Networks](https://scholar.google.com/scholar?q=%22Design+of+Delay-Optimal+Robust+Edge+Computing+in+6G+Wireless+Networks%22),” in *Proc. WCSP*, Nanjing, China, 2022, pp. 1–6.
 
 ### 2020
@@ -293,17 +306,17 @@ html { scroll-behavior: smooth; }
   <p>面向无线通信、边缘智能与通感算融合关键技术形成的国家发明专利成果。</p>
 </header>
 
-1. 齐俏，陈晓明：一种基于无线信息与能量协同传输的大规模接入方法。专利号：ZL201811564288.X。发明专利。授权时间：2020 年 3 月。
-2. 齐俏，陈晓明：一种计算与通信融合的大规模接入方法。专利号：ZL201910603565.1。发明专利。授权时间：2021 年 1 月。
-3. 齐俏，陈晓明：一种面向边缘智能网络的大规模接入方法。专利号：ZL202110049384.6。发明专利。授权时间：2021 年 11 月。
-4. 齐俏，陈晓明，张朝阳：一种无线网络中感知、计算和通信的融合方法。专利号：ZL202111029984.2。发明专利。授权时间：2023 年 8 月。
-5. 齐俏，陈晓明，张朝阳：一种定位、通信和计算的融合方法。专利号：ZL202210350401.4。发明专利。授权时间：2025 年 2 月。
-6. 齐俏，陈晓明，张朝阳：一种基于深度学习的通信和感知融合方法。专利号：ZL202211249697.7。发明专利。授权时间：2025 年 8 月。
-7. 齐俏，陈麒羽，钱正洪：一种堆叠智能超表面增强的通信和计算融合方法。专利号：ZL202511679882.3。发明专利。
-8. 齐俏，陈麒羽，盛喆，王瑞钢，钱正洪：一种堆叠智能超表面辅助的多站协作通信和感知融合方法。专利号：ZL202610129697.5。发明专利。
-9. 王琦，陈晓明，齐俏，张朝阳：一种计算和通信的融合方法。专利号：ZL202210035660.8。发明专利。授权时间：2023 年 12 月。
-10. 王琦，陈晓明，齐俏，张朝阳：一种星地联合的边缘计算方法。专利号：ZL202210977079.8。发明专利。授权时间：2025 年 2 月。
-11. 王琦，陈晓明，齐俏，张朝阳：一种基于多星协作的信息通信和位置感知一体化设计方法。专利号：202311059330.3。发明专利。
+1. <strong class="self-author">齐俏</strong>，陈晓明：一种基于无线信息与能量协同传输的大规模接入方法。专利号：ZL201811564288.X。发明专利。授权时间：2020 年 3 月。
+2. <strong class="self-author">齐俏</strong>，陈晓明：一种计算与通信融合的大规模接入方法。专利号：ZL201910603565.1。发明专利。授权时间：2021 年 1 月。
+3. <strong class="self-author">齐俏</strong>，陈晓明：一种面向边缘智能网络的大规模接入方法。专利号：ZL202110049384.6。发明专利。授权时间：2021 年 11 月。
+4. <strong class="self-author">齐俏</strong>，陈晓明，张朝阳：一种无线网络中感知、计算和通信的融合方法。专利号：ZL202111029984.2。发明专利。授权时间：2023 年 8 月。
+5. <strong class="self-author">齐俏</strong>，陈晓明，张朝阳：一种定位、通信和计算的融合方法。专利号：ZL202210350401.4。发明专利。授权时间：2025 年 2 月。
+6. <strong class="self-author">齐俏</strong>，陈晓明，张朝阳：一种基于深度学习的通信和感知融合方法。专利号：ZL202211249697.7。发明专利。授权时间：2025 年 8 月。
+7. <strong class="self-author">齐俏</strong>，陈麒羽，钱正洪：一种堆叠智能超表面增强的通信和计算融合方法。专利号：ZL202511679882.3。发明专利。
+8. <strong class="self-author">齐俏</strong>，陈麒羽，盛喆，王瑞钢，钱正洪：一种堆叠智能超表面辅助的多站协作通信和感知融合方法。专利号：ZL202610129697.5。发明专利。
+9. 王琦，陈晓明，<strong class="self-author">齐俏</strong>，张朝阳：一种计算和通信的融合方法。专利号：ZL202210035660.8。发明专利。授权时间：2023 年 12 月。
+10. 王琦，陈晓明，<strong class="self-author">齐俏</strong>，张朝阳：一种星地联合的边缘计算方法。专利号：ZL202210977079.8。发明专利。授权时间：2025 年 2 月。
+11. 王琦，陈晓明，<strong class="self-author">齐俏</strong>，张朝阳：一种基于多星协作的信息通信和位置感知一体化设计方法。专利号：202311059330.3。发明专利。
 </div>
 
 <div class="content-view" data-view="awards" id="awards" hidden markdown="1">
@@ -334,6 +347,37 @@ html { scroll-behavior: smooth; }
 <script>
 (function () {
   var panelIds = ['research','teaching','publications','patents','awards'];
+  function updatePaperCounts() {
+    var publications = document.querySelector('[data-view="publications"]');
+    if (!publications) return;
+    publications.querySelectorAll('h2[data-paper-count-label]').forEach(function (heading) {
+      var count = 0;
+      var node = heading.nextElementSibling;
+      while (node && node.tagName !== 'H2') {
+        if (node.tagName === 'UL') {
+          Array.prototype.forEach.call(node.children, function (item) {
+            if (item.tagName === 'LI') count += 1;
+          });
+        }
+        node = node.nextElementSibling;
+      }
+      heading.textContent = heading.getAttribute('data-paper-count-label') + ' (' + count + ')';
+    });
+  }
+  function revealPageViewsWhenReady() {
+    var attempts = 0;
+    function checkValue() {
+      var value = document.getElementById('busuanzi_value_page_pv');
+      var container = document.getElementById('page-views');
+      if (value && container && /^\d[\d,]*$/.test(value.textContent.trim())) {
+        container.hidden = false;
+        return;
+      }
+      attempts += 1;
+      if (attempts < 20) window.setTimeout(checkValue, 250);
+    }
+    checkValue();
+  }
   function setView() {
     var requested = (window.location.hash || '#home').slice(1);
     var panel = panelIds.indexOf(requested) >= 0 ? requested : 'home';
@@ -369,6 +413,9 @@ html { scroll-behavior: smooth; }
     img.addEventListener('error', hideBroken);
     if (img.complete) hideBroken();
   });
+  updatePaperCounts();
   setView();
+  window.addEventListener('load', revealPageViewsWhenReady);
 }());
 </script>
+<script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
