@@ -69,7 +69,7 @@ html { scroll-behavior: smooth; }
 .author-note { margin: 0 0 2rem; color: #6e8389; font-size: .86rem; }
 .author-note strong { color: #063f55; font-weight: 800; }
 .self-author { color: #b42318; font-weight: 800; }
-.corresponding-author:after { content: "*"; position: relative; top: -.42em; margin-left: .08em; color: #c34d32; font-size: .72em; font-weight: 900; }
+.corresponding-author { text-decoration-line: underline; text-decoration-thickness: .08em; text-underline-offset: .16em; text-decoration-skip-ink: auto; }
 .corresponding-symbol { color: #c34d32; font-weight: 900; }
 .highly-cited-icon { display: inline-block; margin-left: .35rem; font-size: .92em; line-height: 1; vertical-align: .08em; }
 .publication-award { color: #963c32; font-weight: 700; }
@@ -81,6 +81,8 @@ html { scroll-behavior: smooth; }
 [data-view="publications"] > ul { margin: 0; padding: 0; list-style: none; }
 [data-view="publications"] > ul > li { position: relative; margin: 0 0 .8rem; padding: 1.05rem 1.1rem 1.05rem 1.3rem; border: 1px solid #e0ecea; border-radius: 14px; background: #fff; box-shadow: 0 7px 22px rgba(12,65,77,.045); }
 [data-view="publications"] > ul > li:before { content: ""; position: absolute; left: 0; top: .8rem; bottom: .8rem; width: 3px; border-radius: 3px; background: linear-gradient(#0f8794,#69b5ae); }
+.book-list { margin: 0; padding: 0; list-style: none; }
+.book-list li { margin: 0 0 1.4rem; padding: 1.05rem 1.1rem 1.05rem 1.3rem; border: 1px solid #d7e8e7; border-left: 3px solid #0f8794; border-radius: 14px; background: linear-gradient(135deg,#fff,#f4faf9); box-shadow: 0 7px 22px rgba(12,65,77,.045); }
 
 [data-view="awards"] > ol { position: relative; margin-left: .45rem; padding: 0 0 0 1.8rem; list-style: none; }
 [data-view="awards"] > ol:before { content: ""; position: absolute; left: .35rem; top: .5rem; bottom: .6rem; width: 2px; background: linear-gradient(#0f8794,#d9eae8); }
@@ -163,9 +165,6 @@ html { scroll-behavior: smooth; }
 7. 国家自然科学基金区创重点项目，低轨卫星物联网的移动覆盖和巨址接入理论与关键技术，参与，结题，2022.01–2025.12。
 8. 华为公司合作项目，有限位宽均衡算法研究，参与，结题，2020–2021。
 
-<h2 class="section-heading" id="book">学术专著 <span>Book</span></h2>
-
-1. X. Chen and Q. Qi, [*Convergence of Energy, Communication and Computation in B5G Cellular Internet of Things*](https://doi.org/10.1007/978-981-15-4140-7_1), Germany: Springer, 2020.
 </div>
 
 <div class="content-view" data-view="teaching" id="teaching" hidden markdown="1">
@@ -205,98 +204,104 @@ html { scroll-behavior: smooth; }
 
 <p class="profile-links">完整论文与最新引用数据请访问 <a href="https://scholar.google.com/citations?user=pBR9kbMAAAAJ&amp;hl=en"><strong>Google Scholar</strong></a>；研究者身份记录见 <a href="https://orcid.org/0000-0002-5120-6186"><strong>ORCID</strong></a>。</p>
 
-<p class="author-note"><strong>加粗红色姓名</strong>为本人；<span class="corresponding-symbol" aria-hidden="true">*</span> 通讯作者 / Corresponding author。</p>
+<p class="author-note publication-note"><strong>加粗红色姓名</strong>为本人；<span class="corresponding-symbol" aria-hidden="true">*</span> 通讯作者 / Corresponding author。<br>目前，以一作/通讯作者发表论文 <strong data-first-or-corresponding-count>21</strong> 篇。</p>
+
+<h2 class="section-heading" id="book">学术专著 <span>Book</span></h2>
+
+<ol class="book-list">
+  <li>X. Chen and Q. Qi, <a href="https://doi.org/10.1007/978-981-15-4140-7_1"><em>Convergence of Energy, Communication and Computation in B5G Cellular Internet of Things</em></a>, Germany: Springer, 2020.</li>
+</ol>
 
 <!-- Counts are fallback values; JavaScript refreshes them from the rendered paper lists. -->
 <h2 data-paper-count-label="Journal Papers">Journal Papers (26)</h2>
 
 ### 2026
 
-- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, Y. Xu, and J. Pan, “[LEO Satellite Internet of Things: Architecture, Technology, and On-Orbit Verification](https://doi.org/10.1109/MVT.2026.3714978),” *IEEE Vehicular Technology Magazine*, accepted, 2026. [DOI](https://doi.org/10.1109/MVT.2026.3714978)
-- Z. Liu, Z. Yang, Z. Zhang, <strong class="self-author">Q. Qi</strong>, Z. Zhang, and M. R. Shikh-Bahaei, “[Multi-Agent Reinforcement Learning for Diffusion-Based Token Communications in Robotic Networks](https://doi.org/10.1109/TCCN.2026.3712126),” *IEEE Transactions on Cognitive Communications and Networking*, accepted, 2026. [DOI](https://doi.org/10.1109/TCCN.2026.3712126)
-- <strong class="self-author">Q. Qi</strong>, Q. Chen, J. An, X. Chen, Z. Yang, C. Huang, and Z. Zhang, “[Stacked Intelligent Metasurface-Aided Multi-Static Sensing and Cooperative Communication](https://doi.org/10.1631/ENG.ITEE.2026.0137),” *ENGINEERING Information Technology & Electronic Engineering*, accepted, 2026. [DOI](https://doi.org/10.1631/ENG.ITEE.2026.0137)
-- Q. Wang, X. Chen, <strong class="self-author">Q. Qi</strong>, Z. Wang, and Y. Liu, “[Continuous Aperture Array-Assisted Integrated Communication and Navigation in Low-Earth Orbit Satellite Constellations](https://doi.org/10.1631/ENG.ITEE.2026.0090),” *ENGINEERING Information Technology & Electronic Engineering*, accepted, 2026. [DOI](https://doi.org/10.1631/ENG.ITEE.2026.0090)
-- <strong class="self-author">Q. Qi</strong>, Q. Chen, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Task-Oriented Wave Processing with Stacked Intelligent Metasurfaces: Framework, Fusion, and Challenges](https://scholar.google.com/scholar?q=%22Task-Oriented +Wave+Processing+with+Stacked+Intelligent+Metasurfaces:+Framework,+Fusion,+and Challenges%22),” *IEEE Communications Magazine*, accepted, 2026. doi：[DOI](https://doi.org/10.1109/MCOM.001.2600075)
-- Q. Chen, <strong class="self-author corresponding-author">Q. Qi</strong>, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Stacked Intelligent Metasurface Enhanced Integrated Communication and Computation](https://doi.org/10.1109/JIOT.2025.3649324),” *IEEE Internet of Things Journal*, vol. 13, no. 7, pp. 14442–14453, Apr. 2026. [DOI](https://doi.org/10.1109/JIOT.2025.3649324)
-- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and Z. Zhang, “[QoS-Driven Satellite Constellation Design for LEO Satellite Internet of Things](https://doi.org/10.1109/TWC.2025.3605220),” *IEEE Transactions on Wireless Communications*, vol. 25, pp. 3610–3625, 2026. [DOI](https://doi.org/10.1109/TWC.2025.3605220) / [arXiv](https://arxiv.org/abs/2509.00345)
-- Q. Wang, X. Chen, <strong class="self-author">Q. Qi</strong>, Z. Wang, and Y. Liu, “[Integration of Navigation and Remote Sensing in LEO Satellite Constellations](https://doi.org/10.1109/TCOMM.2025.3634253),” *IEEE Transactions on Communications*, vol. 74, pp. 581–597, 2026. [DOI](https://doi.org/10.1109/TCOMM.2025.3634253) / [arXiv](https://arxiv.org/abs/2511.12430)
-- W. Yao, X. Chen, Q. Wang, <strong class="self-author">Q. Qi</strong>, and M. Ying, “[Metasurface Antenna-Enabled LEO Satellite Constellation Communications: Design and Optimization](https://doi.org/10.1109/JIOT.2026.3660315),” *IEEE Internet of Things Journal*, 2026. [DOI](https://doi.org/10.1109/JIOT.2026.3660315)
-- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and Y. Xu, “[Modeling and Analysis for Multiple-Layer LEO Satellite Internet of Things Constellations](https://doi.org/10.1109/TWC.2026.3672191),” *IEEE Transactions on Wireless Communications*, 2026. [DOI](https://doi.org/10.1109/TWC.2026.3672191)
+- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, Y. Xu, and J. Pan, “LEO Satellite Internet of Things: Architecture, Technology, and On-Orbit Verification,” *IEEE Vehicular Technology Magazine*, accepted, 2026.
+- Z. Liu, Z. Yang, Z. Zhang, <strong class="self-author">Q. Qi</strong>, Z. Zhang, and M. R. Shikh-Bahaei, “[Multi-Agent Reinforcement Learning for Diffusion-Based Token Communications in Robotic Networks](https://doi.org/10.1109/TCCN.2026.3712126),” *IEEE Transactions on Cognitive Communications and Networking*, accepted, 2026. [DOI: 10.1109/TCCN.2026.3712126](https://doi.org/10.1109/TCCN.2026.3712126)
+- <strong class="self-author">Q. Qi</strong>, Q. Chen, J. An, X. Chen, Z. Yang, C. Huang, and Z. Zhang, “Stacked Intelligent Metasurface-Aided Multi-Static Sensing and Cooperative Communication,” *ENGINEERING Information Technology & Electronic Engineering*, accepted, 2026.
+- Q. Wang, X. Chen, <strong class="self-author">Q. Qi</strong>, Z. Wang, and Y. Liu, “Continuous Aperture Array-Assisted Integrated Communication and Navigation in Low-Earth Orbit Satellite Constellations,” *ENGINEERING Information Technology & Electronic Engineering*, accepted, 2026.
+- <strong class="self-author">Q. Qi</strong>, Q. Chen, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “Task-Oriented Wave Processing with Stacked Intelligent Metasurfaces: Framework, Fusion, and Challenges,” *IEEE Communications Magazine*, accepted, 2026.
+- Q. Chen, <u class="corresponding-author"><strong class="self-author">Q. Qi*</strong></u>, J. An, Z. Yang, X. Chen, C. Huang, and C. Yuen, “[Stacked Intelligent Metasurface Enhanced Integrated Communication and Computation](https://doi.org/10.1109/JIOT.2025.3649324),” *IEEE Internet of Things Journal*, vol. 13, no. 7, pp. 14442–14453, Apr. 2026. [DOI: 10.1109/JIOT.2025.3649324](https://doi.org/10.1109/JIOT.2025.3649324)
+- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and Z. Zhang, “[QoS-Driven Satellite Constellation Design for LEO Satellite Internet of Things](https://doi.org/10.1109/TWC.2025.3605220),” *IEEE Transactions on Wireless Communications*, vol. 25, pp. 3610–3625, 2026. [DOI: 10.1109/TWC.2025.3605220](https://doi.org/10.1109/TWC.2025.3605220) / [arXiv](https://arxiv.org/abs/2509.00345)
+- Q. Wang, X. Chen, <strong class="self-author">Q. Qi</strong>, Z. Wang, and Y. Liu, “[Integration of Navigation and Remote Sensing in LEO Satellite Constellations](https://doi.org/10.1109/TCOMM.2025.3628754),” *IEEE Transactions on Communications*, vol. 74, pp. 581–597, 2026. [DOI: 10.1109/TCOMM.2025.3628754](https://doi.org/10.1109/TCOMM.2025.3628754) / [arXiv](https://arxiv.org/abs/2511.12430)
+- W. Yao, X. Chen, Q. Wang, <strong class="self-author">Q. Qi</strong>, and M. Ying, “[Metasurface Antenna-Enabled LEO Satellite Constellation Communications: Design and Optimization](https://doi.org/10.1109/JIOT.2026.3660315),” *IEEE Internet of Things Journal*, 2026. [DOI: 10.1109/JIOT.2026.3660315](https://doi.org/10.1109/JIOT.2026.3660315)
+- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and Y. Xu, “[Modeling and Analysis for Multiple-Layer LEO Satellite Internet of Things Constellations](https://doi.org/10.1109/TWC.2026.3672191),” *IEEE Transactions on Wireless Communications*, 2026. [DOI: 10.1109/TWC.2026.3672191](https://doi.org/10.1109/TWC.2026.3672191)
 
 ### 2025
 
-- Q. Wang, X. Chen, <strong class="self-author">Q. Qi</strong>, M. Li, and W. Gerstacker, “[Multiple-Satellite Cooperative Information Communication and Location Sensing in LEO Satellite Constellations](https://doi.org/10.1109/TWC.2025.3530083),” *IEEE Transactions on Wireless Communications*, vol. 24, no. 4, pp. 3346–3361, Apr. 2025. [DOI](https://doi.org/10.1109/TWC.2025.3530083)
+- Q. Wang, X. Chen, <strong class="self-author">Q. Qi</strong>, M. Li, and W. Gerstacker, “[Multiple-Satellite Cooperative Information Communication and Location Sensing in LEO Satellite Constellations](https://doi.org/10.1109/TWC.2025.3530083),” *IEEE Transactions on Wireless Communications*, vol. 24, no. 4, pp. 3346–3361, Apr. 2025. [DOI: 10.1109/TWC.2025.3530083](https://doi.org/10.1109/TWC.2025.3530083)
 
 ### 2024
 
-- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, C. Yuen, and Z. Zhang, “[Deep Learning-Based Design of Uplink Integrated Sensing and Communication](https://doi.org/10.1109/TWC.2024.3373797),” *IEEE Transactions on Wireless Communications*, vol. 23, no. 9, pp. 10639–10652, Sep. 2024. [DOI](https://doi.org/10.1109/TWC.2024.3373797) / [arXiv](https://arxiv.org/abs/2403.01480) <span class="highly-cited-icon" role="img" aria-label="Highly Cited Paper" title="Highly Cited Paper">👑</span>
-- <strong class="self-author">Q. Qi</strong>, X. Chen, and C. Yuen, “[Joint Offloading Selection and Resource Allocation for Integrated Localization and Computing in Edge-Intelligent Networks](https://doi.org/10.1109/TVT.2024.3374705),” *IEEE Transactions on Vehicular Technology*, vol. 73, no. 8, pp. 11427–11440, Aug. 2024. [DOI](https://doi.org/10.1109/TVT.2024.3374705)
-- <strong class="self-author">齐俏</strong>，陈晓明, “[面向边缘智能网络的通-感-算融合：架构、挑战和展望](https://scholar.google.com/scholar?q=%22%E9%9D%A2%E5%90%91%E8%BE%B9%E7%BC%98%E6%99%BA%E8%83%BD%E7%BD%91%E7%BB%9C%E7%9A%84%E9%80%9A-%E6%84%9F-%E7%AE%97%E8%9E%8D%E5%90%88%EF%BC%9A%E6%9E%B6%E6%9E%84%E3%80%81%E6%8C%91%E6%88%98%E5%92%8C%E5%B1%95%E6%9C%9B%22),” *移动通信*, vol. 48, no. 3, pp. 40–46, 2024.
-- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and W. Gerstacker, “[Deep Learning-Based Joint Channel Prediction and Multibeam Precoding for LEO Satellite Internet of Things](https://doi.org/10.1109/TWC.2024.3406952),” *IEEE Transactions on Wireless Communications*, vol. 23, no. 10, pp. 13946–13960, Oct. 2024. [DOI](https://doi.org/10.1109/TWC.2024.3406952) / [arXiv](https://arxiv.org/abs/2405.17150)
+- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, C. Yuen, and Z. Zhang, “[Deep Learning-Based Design of Uplink Integrated Sensing and Communication](https://doi.org/10.1109/TWC.2024.3373797),” *IEEE Transactions on Wireless Communications*, vol. 23, no. 9, pp. 10639–10652, Sep. 2024. [DOI: 10.1109/TWC.2024.3373797](https://doi.org/10.1109/TWC.2024.3373797) / [arXiv](https://arxiv.org/abs/2403.01480) <span class="highly-cited-icon" role="img" aria-label="Highly Cited Paper" title="Highly Cited Paper">👑</span>
+- <strong class="self-author">Q. Qi</strong>, X. Chen, and C. Yuen, “[Joint Offloading Selection and Resource Allocation for Integrated Localization and Computing in Edge-Intelligent Networks](https://doi.org/10.1109/TVT.2024.3374705),” *IEEE Transactions on Vehicular Technology*, vol. 73, no. 8, pp. 11427–11440, Aug. 2024. [DOI: 10.1109/TVT.2024.3374705](https://doi.org/10.1109/TVT.2024.3374705)
+- <strong class="self-author">齐俏</strong>，陈晓明, “面向边缘智能网络的通-感-算融合：架构、挑战和展望,” *移动通信*, vol. 48, no. 3, pp. 40–46, 2024.
+- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and W. Gerstacker, “[Deep Learning-Based Joint Channel Prediction and Multibeam Precoding for LEO Satellite Internet of Things](https://doi.org/10.1109/TWC.2024.3406952),” *IEEE Transactions on Wireless Communications*, vol. 23, no. 10, pp. 13946–13960, Oct. 2024. [DOI: 10.1109/TWC.2024.3406952](https://doi.org/10.1109/TWC.2024.3406952) / [arXiv](https://arxiv.org/abs/2405.17150)
 
 ### 2023
 
-- Q. Wang, X. Chen, and <strong class="self-author">Q. Qi</strong>, “[Task-Driven Robust Integration of Communication and Computation for Edge-Intelligent Networks](https://doi.org/10.1109/TCOMM.2022.3221403),” *IEEE Transactions on Communications*, vol. 71, no. 1, pp. 244–255, Jan. 2023. [DOI](https://doi.org/10.1109/TCOMM.2022.3221403)
-- Q. Wang, X. Chen, and <strong class="self-author">Q. Qi</strong>, “[Energy-Efficient Design of Satellite-Terrestrial Computing in 6G Wireless Networks](https://doi.org/10.1109/TCOMM.2023.3334813),” *IEEE Transactions on Communications*, vol. 72, no. 3, pp. 1759–1772, Mar. 2024. [DOI](https://doi.org/10.1109/TCOMM.2023.3334813)
+- Q. Wang, X. Chen, and <strong class="self-author">Q. Qi</strong>, “[Task-Driven Robust Integration of Communication and Computation for Edge-Intelligent Networks](https://doi.org/10.1109/TCOMM.2022.3221403),” *IEEE Transactions on Communications*, vol. 71, no. 1, pp. 244–255, Jan. 2023. [DOI: 10.1109/TCOMM.2022.3221403](https://doi.org/10.1109/TCOMM.2022.3221403)
+- Q. Wang, X. Chen, and <strong class="self-author">Q. Qi</strong>, “[Energy-Efficient Design of Satellite-Terrestrial Computing in 6G Wireless Networks](https://doi.org/10.1109/TCOMM.2023.3334813),” *IEEE Transactions on Communications*, vol. 72, no. 3, pp. 1759–1772, Mar. 2024. [DOI: 10.1109/TCOMM.2023.3334813](https://doi.org/10.1109/TCOMM.2023.3334813)
 
 ### 2022
 
-- <strong class="self-author">Q. Qi</strong> and X. Chen, “[Robust Design of Federated Learning for Edge-Intelligent Networks](https://doi.org/10.1109/TCOMM.2022.3175921),” *IEEE Transactions on Communications*, vol. 70, no. 7, pp. 4469–4481, Jul. 2022. [DOI](https://doi.org/10.1109/TCOMM.2022.3175921) / [arXiv](https://arxiv.org/abs/2205.06955)
-- <strong class="self-author">Q. Qi</strong>, X. Chen, A. Khalili, C. Zhong, Z. Zhang, and D. W. K. Ng, “[Integrating Sensing, Computing, and Communication in 6G Wireless Networks: Design and Optimization](https://doi.org/10.1109/TCOMM.2022.3190363),” *IEEE Transactions on Communications*, vol. 70, no. 9, pp. 6212–6227, Sep. 2022. [DOI](https://doi.org/10.1109/TCOMM.2022.3190363) / [arXiv](https://arxiv.org/abs/2207.03634)
+- <strong class="self-author">Q. Qi</strong> and X. Chen, “[Robust Design of Federated Learning for Edge-Intelligent Networks](https://doi.org/10.1109/TCOMM.2022.3175921),” *IEEE Transactions on Communications*, vol. 70, no. 7, pp. 4469–4481, Jul. 2022. [DOI: 10.1109/TCOMM.2022.3175921](https://doi.org/10.1109/TCOMM.2022.3175921) / [arXiv](https://arxiv.org/abs/2205.06955)
+- <strong class="self-author">Q. Qi</strong>, X. Chen, A. Khalili, C. Zhong, Z. Zhang, and D. W. K. Ng, “[Integrating Sensing, Computing, and Communication in 6G Wireless Networks: Design and Optimization](https://doi.org/10.1109/TCOMM.2022.3190363),” *IEEE Transactions on Communications*, vol. 70, no. 9, pp. 6212–6227, Sep. 2022. [DOI: 10.1109/TCOMM.2022.3190363](https://doi.org/10.1109/TCOMM.2022.3190363) / [arXiv](https://arxiv.org/abs/2207.03634)
 
 ### 2021
 
-- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, and Z. Zhang, “[Integrated Sensing, Computation and Communication in B5G Cellular Internet of Things](https://doi.org/10.1109/TWC.2020.3024787),” *IEEE Transactions on Wireless Communications*, vol. 20, no. 1, pp. 332–344, Jan. 2021. [DOI](https://doi.org/10.1109/TWC.2020.3024787) / [arXiv](https://arxiv.org/abs/2009.07545)
+- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, and Z. Zhang, “[Integrated Sensing, Computation and Communication in B5G Cellular Internet of Things](https://doi.org/10.1109/TWC.2020.3024787),” *IEEE Transactions on Wireless Communications*, vol. 20, no. 1, pp. 332–344, Jan. 2021. [DOI: 10.1109/TWC.2020.3024787](https://doi.org/10.1109/TWC.2020.3024787) / [arXiv](https://arxiv.org/abs/2009.07545)
 
 ### 2020
 
-- <strong class="self-author">Q. Qi</strong>, X. Chen, and D. W. K. Ng, “[Robust Beamforming for NOMA-Based Cellular Massive IoT With SWIPT](https://doi.org/10.1109/TSP.2019.2959246),” *IEEE Transactions on Signal Processing*, vol. 68, pp. 211–224, 2020. [DOI](https://doi.org/10.1109/TSP.2019.2959246)
-- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, and Z. Zhang, “[Physical Layer Security for Massive Access in Cellular Internet of Things](https://doi.org/10.1007/s11432-019-2650-4),” *Science China Information Sciences*, vol. 63, no. 2, pp. 121301:1–121301:12, Feb. 2020. [DOI](https://doi.org/10.1007/s11432-019-2650-4)
-- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, and Z. Zhang, “[Integration of Energy, Computation and Communication in 6G Cellular Internet of Things](https://doi.org/10.1109/LCOMM.2020.2982151),” *IEEE Communications Letters*, vol. 24, no. 6, pp. 1333–1337, Jun. 2020. [DOI](https://doi.org/10.1109/LCOMM.2020.2982151)
-- R. Jia, X. Chen, <strong class="self-author">Q. Qi</strong>, and H. Lin, “[Massive Beam-Division Multiple Access for B5G Cellular Internet of Things](https://doi.org/10.1109/JIOT.2019.2958129),” *IEEE Internet of Things Journal*, vol. 7, no. 3, pp. 2386–2396, Mar. 2020. [DOI](https://doi.org/10.1109/JIOT.2019.2958129)
+- <strong class="self-author">Q. Qi</strong>, X. Chen, and D. W. K. Ng, “[Robust Beamforming for NOMA-Based Cellular Massive IoT With SWIPT](https://doi.org/10.1109/TSP.2019.2959246),” *IEEE Transactions on Signal Processing*, vol. 68, pp. 211–224, 2020. [DOI: 10.1109/TSP.2019.2959246](https://doi.org/10.1109/TSP.2019.2959246)
+- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, and Z. Zhang, “[Physical Layer Security for Massive Access in Cellular Internet of Things](https://doi.org/10.1007/s11432-019-2650-4),” *Science China Information Sciences*, vol. 63, no. 2, pp. 121301:1–121301:12, Feb. 2020. [DOI: 10.1007/s11432-019-2650-4](https://doi.org/10.1007/s11432-019-2650-4)
+- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, and Z. Zhang, “[Integration of Energy, Computation and Communication in 6G Cellular Internet of Things](https://doi.org/10.1109/LCOMM.2020.2982151),” *IEEE Communications Letters*, vol. 24, no. 6, pp. 1333–1337, Jun. 2020. [DOI: 10.1109/LCOMM.2020.2982151](https://doi.org/10.1109/LCOMM.2020.2982151)
+- R. Jia, X. Chen, <strong class="self-author">Q. Qi</strong>, and H. Lin, “[Massive Beam-Division Multiple Access for B5G Cellular Internet of Things](https://doi.org/10.1109/JIOT.2019.2958129),” *IEEE Internet of Things Journal*, vol. 7, no. 3, pp. 2386–2396, Mar. 2020. [DOI: 10.1109/JIOT.2019.2958129](https://doi.org/10.1109/JIOT.2019.2958129)
 
 ### 2019
 
-- <strong class="self-author">Q. Qi</strong> and X. Chen, “[Wireless Powered Massive Access for Cellular Internet of Things With Imperfect SIC and Non-Linear EH](https://doi.org/10.1109/JIOT.2018.2878860),” *IEEE Internet of Things Journal*, vol. 6, no. 2, pp. 3110–3120, Apr. 2019. [DOI](https://doi.org/10.1109/JIOT.2018.2878860)
-- <strong class="self-author">Q. Qi</strong>, X. Chen, L. Lei, C. Zhong, and Z. Zhang, “[Outage-Constrained Robust Design for Sustainable B5G Cellular Internet of Things](https://doi.org/10.1109/TWC.2019.2938962),” *IEEE Transactions on Wireless Communications*, vol. 18, no. 12, pp. 5780–5790, Dec. 2019. [DOI](https://doi.org/10.1109/TWC.2019.2938962)
+- <strong class="self-author">Q. Qi</strong> and X. Chen, “[Wireless Powered Massive Access for Cellular Internet of Things With Imperfect SIC and Non-Linear EH](https://doi.org/10.1109/JIOT.2018.2878860),” *IEEE Internet of Things Journal*, vol. 6, no. 2, pp. 3110–3120, Apr. 2019. [DOI: 10.1109/JIOT.2018.2878860](https://doi.org/10.1109/JIOT.2018.2878860)
+- <strong class="self-author">Q. Qi</strong>, X. Chen, L. Lei, C. Zhong, and Z. Zhang, “[Outage-Constrained Robust Design for Sustainable B5G Cellular Internet of Things](https://doi.org/10.1109/TWC.2019.2938962),” *IEEE Transactions on Wireless Communications*, vol. 18, no. 12, pp. 5780–5790, Dec. 2019. [DOI: 10.1109/TWC.2019.2938962](https://doi.org/10.1109/TWC.2019.2938962)
 
 <h2 data-paper-count-label="Conference Papers">Conference Papers (15)</h2>
 
 ### 2026
 
-- Q. Chen, <strong class="self-author corresponding-author">Q. Qi</strong>, J. An, Z. Yang, M. Ying, X. Chen, and C. Huang, “[Joint Resource Allocation of SIM-Aided Integrated Communication and Computation in 6G Networks](https://scholar.google.com/scholar?q=%22Joint+Resource+Allocation+of+SIM-Aided+Integrated+Communication+and+Computation+in+6G+Networks%22),” in *Proc. IEEE WCNC*, Kuala Lumpur, Malaysia, 2026, pp. 1–6.
-- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and Y. Xu, “[On the Performance of Multiple-Layer LEO Satellite Internet of Things Constellations](https://scholar.google.com/scholar?q=%22On+the+Performance+of+Multiple-Layer+LEO+Satellite+Internet+of+Things+Constellations%22),” in *Proc. IEEE PIMRC*, Singapore, 2026, pp. 1–6.
+- Q. Chen, <u class="corresponding-author"><strong class="self-author">Q. Qi*</strong></u>, J. An, Z. Yang, M. Ying, X. Chen, and C. Huang, “[Joint Resource Allocation of SIM-Aided Integrated Communication and Computation in 6G Networks](https://doi.org/10.1109/WCNC65185.2026.11555201),” in *Proc. IEEE WCNC*, Kuala Lumpur, Malaysia, 2026, pp. 1–6. [DOI: 10.1109/WCNC65185.2026.11555201](https://doi.org/10.1109/WCNC65185.2026.11555201)
+- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and Y. Xu, “On the Performance of Multiple-Layer LEO Satellite Internet of Things Constellations,” in *Proc. IEEE PIMRC*, Singapore, 2026, pp. 1–6.
 
 ### 2025
 
-- C. Jin, <strong class="self-author corresponding-author">Q. Qi</strong>, and J. Li, “[The Dual-Branch Cross-Alignment Design for Action Transfer Based on Feature Distribution Patterns](https://scholar.google.com/scholar?q=%22The+Dual-Branch+Cross-Alignment+Design+for+Action+Transfer+Based+on+Feature+Distribution+Patterns%22),” in *Proc. ICONIP*, Japan, 2025.
-- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and Z. Zhang, “[Constellation Design of LEO Satellite Internet of Things With QoS Provision](https://scholar.google.com/scholar?q=%22Constellation+Design+of+LEO+Satellite+Internet+of+Things+With+QoS+Provision%22),” in *Proc. IEEE VTC-Spring*, Oslo, Norway, 2025.
+- C. Jin, <u class="corresponding-author"><strong class="self-author">Q. Qi*</strong></u>, and J. Li, “[The Dual-Branch Cross-Alignment Design for Action Transfer Based on Feature Distribution Patterns](https://doi.org/10.1007/978-981-95-4384-7_28),” in *Proc. ICONIP*, Japan, 2025. [DOI: 10.1007/978-981-95-4384-7_28](https://doi.org/10.1007/978-981-95-4384-7_28)
+- M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and Z. Zhang, “[Constellation Design of LEO Satellite Internet of Things With QoS Provision](https://doi.org/10.1109/VTC2025-Spring65109.2025.11174813),” in *Proc. IEEE VTC-Spring*, Oslo, Norway, 2025. [DOI: 10.1109/VTC2025-Spring65109.2025.11174813](https://doi.org/10.1109/VTC2025-Spring65109.2025.11174813)
 
 ### 2024
 
-- Q. Wang, X. Chen, and <strong class="self-author">Q. Qi</strong>, “[Joint Communication Beamforming and Sensing Waveform Design of LEO Satellite Constellations](https://doi.org/10.1109/WCNC57260.2024.10570761),” in *Proc. IEEE WCNC*, Dubai, United Arab Emirates, 2024. [DOI](https://doi.org/10.1109/WCNC57260.2024.10570761)
+- Q. Wang, X. Chen, and <strong class="self-author">Q. Qi</strong>, “[Joint Communication Beamforming and Sensing Waveform Design of LEO Satellite Constellations](https://doi.org/10.1109/WCNC57260.2024.10570761),” in *Proc. IEEE WCNC*, Dubai, United Arab Emirates, 2024. [DOI: 10.1109/WCNC57260.2024.10570761](https://doi.org/10.1109/WCNC57260.2024.10570761)
 
 ### 2023
 
-- <strong class="self-author">Q. Qi</strong>, X. Chen, and C. Yuen, “[DL-Based Joint Waveform and Beamforming Design for Integrated Sensing and Communication](https://scholar.google.com/scholar?q=%22DL-based+Joint+Waveform+and+Beamforming+Design+for+Integrated+Sensing+and+Communication%22),” in *Proc. IEEE GLOBECOM*, Kuala Lumpur, Malaysia, 2023, pp. 1–6.
-- Q. Wang, X. Chen, and <strong class="self-author">Q. Qi</strong>, “[Joint Offloading Selection, Beamforming Design and Resource Allocation for Satellite-Terrestrial Computing](https://scholar.google.com/scholar?q=%22Joint+Offloading+Selection%2C+Beamforming+Design+and+Resource+Allocation+for+Satellite-Terrestrial+Computing%22),” in *Proc. IEEE/CIC ICCC*, Dalian, China, 2023, pp. 1–6.
+- <strong class="self-author">Q. Qi</strong>, X. Chen, and C. Yuen, “[DL-Based Joint Waveform and Beamforming Design for Integrated Sensing and Communication](https://doi.org/10.1109/GCWkshps58843.2023.10464912),” in *Proc. IEEE GLOBECOM Workshops*, Kuala Lumpur, Malaysia, 2023, pp. 1–6. [DOI: 10.1109/GCWkshps58843.2023.10464912](https://doi.org/10.1109/GCWkshps58843.2023.10464912)
+- Q. Wang, X. Chen, and <strong class="self-author">Q. Qi</strong>, “[Joint Offloading Selection, Beamforming Design and Resource Allocation for Satellite-Terrestrial Computing](https://doi.org/10.1109/ICCC57788.2023.10233608),” in *Proc. IEEE/CIC ICCC*, Dalian, China, 2023, pp. 1–6. [DOI: 10.1109/ICCC57788.2023.10233608](https://doi.org/10.1109/ICCC57788.2023.10233608)
 
 ### 2022
 
-- <strong class="self-author">Q. Qi</strong>, X. Chen, and C. Yuen, “[Joint Resource Allocation for Integrated Localization and Computing in Edge-Intelligent Networks](https://scholar.google.com/scholar?q=%22Joint+Resource+Allocation+for+Integrated+Localization+and+Computing+in+Edge-Intelligent+Networks%22),” in *Proc. IEEE GLOBECOM*, Rio de Janeiro, Brazil, 2022, pp. 800–806. <span class="publication-award">（获 IEEE Student Travel Grant）</span>
-- Q. Wang, X. Chen, and <strong class="self-author">Q. Qi</strong>, “[Design of Delay-Optimal Robust Edge Computing in 6G Wireless Networks](https://scholar.google.com/scholar?q=%22Design+of+Delay-Optimal+Robust+Edge+Computing+in+6G+Wireless+Networks%22),” in *Proc. WCSP*, Nanjing, China, 2022, pp. 1–6.
+- <strong class="self-author">Q. Qi</strong>, X. Chen, and C. Yuen, “[Joint Resource Allocation for Integrated Localization and Computing in Edge-Intelligent Networks](https://doi.org/10.1109/GLOBECOM48099.2022.10001305),” in *Proc. IEEE GLOBECOM*, Rio de Janeiro, Brazil, 2022, pp. 800–806. [DOI: 10.1109/GLOBECOM48099.2022.10001305](https://doi.org/10.1109/GLOBECOM48099.2022.10001305) <span class="publication-award">（获 IEEE Student Travel Grant）</span>
+- Q. Wang, X. Chen, and <strong class="self-author">Q. Qi</strong>, “[Design of Delay-Optimal Robust Edge Computing in 6G Wireless Networks](https://doi.org/10.1109/WCSP55476.2022.10039255),” in *Proc. WCSP*, Nanjing, China, 2022, pp. 1–6. [DOI: 10.1109/WCSP55476.2022.10039255](https://doi.org/10.1109/WCSP55476.2022.10039255)
 
 ### 2020
 
-- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, and Z. Zhang, “[Robust Integration of Computation and Communication in B5G Cellular Internet of Things](https://scholar.google.com/scholar?q=%22Robust+Integration+of+Computation+and+Communication+in+B5G+Cellular+Internet+of+Things%22),” in *Proc. IEEE WCNC*, Seoul, Korea, 2020, pp. 1–6.
-- J. Chu, X. Chen, <strong class="self-author">Q. Qi</strong>, C. Zhong, H. Lin, and Z. Zhang, “[On the Design of B5G MultiBeam LEO Satellite Internet of Things](https://scholar.google.com/scholar?q=%22On+the+Design+of+B5G+MultiBeam+LEO+Satellite+Internet+of+Things%22),” in *Proc. IEEE VTC2020-Spring*, Antwerp, Belgium, 2020, pp. 1–6.
-- R. Fu, <strong class="self-author">Q. Qi</strong>, C. Zhong, X. Chen, and Z. Zhang, “[Block Error Rate Analysis of Short-Packet NOMA Communications With Imperfect SIC](https://scholar.google.com/scholar?q=%22Block+Error+Rate+Analysis+of+Short-Packet+NOMA+Communications+With+Imperfect+SIC%22),” in *Proc. IEEE/CIC ICCC*, Chongqing, China, 2020, pp. 1–6.
+- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, and Z. Zhang, “[Robust Integration of Computation and Communication in B5G Cellular Internet of Things](https://doi.org/10.1109/WCNC45663.2020.9120491),” in *Proc. IEEE WCNC*, Seoul, Korea, 2020, pp. 1–6. [DOI: 10.1109/WCNC45663.2020.9120491](https://doi.org/10.1109/WCNC45663.2020.9120491)
+- J. Chu, X. Chen, <strong class="self-author">Q. Qi</strong>, C. Zhong, H. Lin, and Z. Zhang, “[On the Design of B5G MultiBeam LEO Satellite Internet of Things](https://doi.org/10.1109/VTC2020-Spring48590.2020.9128714),” in *Proc. IEEE VTC2020-Spring*, Antwerp, Belgium, 2020, pp. 1–6. [DOI: 10.1109/VTC2020-Spring48590.2020.9128714](https://doi.org/10.1109/VTC2020-Spring48590.2020.9128714)
+- R. Fu, <strong class="self-author">Q. Qi</strong>, C. Zhong, X. Chen, and Z. Zhang, “[Block Error Rate Analysis of Short-Packet NOMA Communications With Imperfect SIC](https://doi.org/10.1109/ICCC49849.2020.9238976),” in *Proc. IEEE/CIC ICCC*, Chongqing, China, 2020, pp. 1–6. [DOI: 10.1109/ICCC49849.2020.9238976](https://doi.org/10.1109/ICCC49849.2020.9238976)
 
 ### 2019
 
-- <strong class="self-author">Q. Qi</strong>, X. Chen, D. W. K. Ng, C. Zhong, and Z. Zhang, “[Robust Beamforming Design for SWIPT in Cellular Internet of Things](https://scholar.google.com/scholar?q=%22Robust+Beamforming+Design+for+SWIPT+in+Cellular+Internet+of+Things%22),” in *Proc. IEEE/CIC ICCC*, Changchun, China, 2019, pp. 523–528.
-- <strong class="self-author">Q. Qi</strong>, X. Chen, L. Lei, C. Zhong, and Z. Zhang, “[Robust Convergence of Energy and Computation for B5G Cellular Internet of Things](https://scholar.google.com/scholar?q=%22Robust+Convergence+of+Energy+and+Computation+for+B5G+Cellular+Internet+of+Things%22),” in *Proc. IEEE GLOBECOM*, Hawaii, USA, 2019, pp. 1–6.
-- R. Jia, X. Chen, and <strong class="self-author">Q. Qi</strong>, “[Low-Complexity Beamspace Massive Access for B5G Cellular Internet of Things](https://scholar.google.com/scholar?q=%22Low-Complexity+Beamspace+Massive+Access+for+B5G+Cellular+Internet+of+Things%22),” in *Proc. WCSP*, Xi'an, China, 2019, pp. 1–6.
+- <strong class="self-author">Q. Qi</strong>, X. Chen, D. W. K. Ng, C. Zhong, and Z. Zhang, “[Robust Beamforming Design for SWIPT in Cellular Internet of Things](https://doi.org/10.1109/ICCChina.2019.8855883),” in *Proc. IEEE/CIC ICCC*, Changchun, China, 2019, pp. 523–528. [DOI: 10.1109/ICCChina.2019.8855883](https://doi.org/10.1109/ICCChina.2019.8855883)
+- <strong class="self-author">Q. Qi</strong>, X. Chen, L. Lei, C. Zhong, and Z. Zhang, “[Robust Convergence of Energy and Computation for B5G Cellular Internet of Things](https://doi.org/10.1109/GLOBECOM38437.2019.9013610),” in *Proc. IEEE GLOBECOM*, Hawaii, USA, 2019, pp. 1–6. [DOI: 10.1109/GLOBECOM38437.2019.9013610](https://doi.org/10.1109/GLOBECOM38437.2019.9013610)
+- R. Jia, X. Chen, and <strong class="self-author">Q. Qi</strong>, “[Low-Complexity Beamspace Massive Access for B5G Cellular Internet of Things](https://doi.org/10.1109/WCSP.2019.8927855),” in *Proc. WCSP*, Xi'an, China, 2019, pp. 1–6. [DOI: 10.1109/WCSP.2019.8927855](https://doi.org/10.1109/WCSP.2019.8927855)
 </div>
 
 <div class="content-view" data-view="patents" id="patents" hidden markdown="1">
@@ -350,19 +355,40 @@ html { scroll-behavior: smooth; }
   function updatePaperCounts() {
     var publications = document.querySelector('[data-view="publications"]');
     if (!publications) return;
+    var paperItems = [];
     publications.querySelectorAll('h2[data-paper-count-label]').forEach(function (heading) {
       var count = 0;
       var node = heading.nextElementSibling;
       while (node && node.tagName !== 'H2') {
         if (node.tagName === 'UL') {
           Array.prototype.forEach.call(node.children, function (item) {
-            if (item.tagName === 'LI') count += 1;
+            if (item.tagName === 'LI') {
+              count += 1;
+              paperItems.push(item);
+            }
           });
         }
         node = node.nextElementSibling;
       }
       heading.textContent = heading.getAttribute('data-paper-count-label') + ' (' + count + ')';
     });
+    var firstAuthorCount = 0;
+    var correspondingAuthorCount = 0;
+    var firstOrCorrespondingCount = 0;
+    paperItems.forEach(function (item) {
+      var text = item.textContent.trim();
+      var isFirstAuthor = /^(Q\.\s*Qi|Qi\s+Qiao|Qiao\s+Qi)(?:\*|[\s,，]|$)/.test(text) || text.indexOf('齐俏') === 0;
+      var isCorrespondingAuthor = !!item.querySelector('.corresponding-author .self-author');
+      if (isFirstAuthor) firstAuthorCount += 1;
+      if (isCorrespondingAuthor) correspondingAuthorCount += 1;
+      if (isFirstAuthor || isCorrespondingAuthor) firstOrCorrespondingCount += 1;
+    });
+    var countNode = publications.querySelector('[data-first-or-corresponding-count]');
+    if (countNode) {
+      countNode.textContent = firstOrCorrespondingCount;
+      countNode.setAttribute('data-first-author-count', firstAuthorCount);
+      countNode.setAttribute('data-corresponding-author-count', correspondingAuthorCount);
+    }
   }
   function revealPageViewsWhenReady() {
     var attempts = 0;
