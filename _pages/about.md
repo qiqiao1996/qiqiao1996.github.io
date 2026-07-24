@@ -74,7 +74,6 @@ html { scroll-behavior: smooth; }
 .highly-cited-icon { display: inline-block; margin-left: .35rem; font-size: .92em; line-height: 1; vertical-align: .08em; }
 .publication-award { color: #963c32; font-weight: 700; }
 .page-views { display: flex; align-items: center; justify-content: center; gap: .45rem; margin: 2rem 0 0; padding: .8rem 1rem; border-top: 1px solid var(--academic-line); color: var(--academic-muted); font-size: .84rem; text-align: center; }
-.page-views[hidden] { display: none !important; }
 .page-views strong { color: var(--academic-blue); font-variant-numeric: tabular-nums; }
 [data-view="publications"] h2 { border-bottom: 2px solid #dceae8; font-size: 1.42rem; }
 [data-view="publications"] h3 { display: inline-block; margin: 1.45rem 0 .75rem; padding: .28rem .72rem; border-radius: 999px; background: #e8f4f2; color: #087884; font-size: .9rem; letter-spacing: .04em; }
@@ -143,9 +142,9 @@ html { scroll-behavior: smooth; }
   </div>
 </section>
 
-<div id="page-views" class="page-views" aria-live="polite" hidden>
+<div id="page-views" class="page-views" aria-live="polite">
   <span>主页访问量 / Page Views:</span>
-  <span id="busuanzi_container_page_pv" style="display:none"><strong id="busuanzi_value_page_pv"></strong></span>
+  <strong id="busuanzi_page_pv">加载中…</strong><span>次</span>
 </div>
 </div>
 
@@ -390,20 +389,6 @@ html { scroll-behavior: smooth; }
       countNode.setAttribute('data-corresponding-author-count', correspondingAuthorCount);
     }
   }
-  function revealPageViewsWhenReady() {
-    var attempts = 0;
-    function checkValue() {
-      var value = document.getElementById('busuanzi_value_page_pv');
-      var container = document.getElementById('page-views');
-      if (value && container && /^\d[\d,]*$/.test(value.textContent.trim())) {
-        container.hidden = false;
-        return;
-      }
-      attempts += 1;
-      if (attempts < 20) window.setTimeout(checkValue, 250);
-    }
-    checkValue();
-  }
   function setView() {
     var requested = (window.location.hash || '#home').slice(1);
     var panel = panelIds.indexOf(requested) >= 0 ? requested : 'home';
@@ -441,7 +426,6 @@ html { scroll-behavior: smooth; }
   });
   updatePaperCounts();
   setView();
-  window.addEventListener('load', revealPageViewsWhenReady);
 }());
 </script>
-<script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script defer src="https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js"></script>
