@@ -216,6 +216,7 @@ html { scroll-behavior: smooth; }
 
 ### 2026
 
+- K. Ding, K. Jin, Q. Tao and <strong class="self-author">Q. Qi</strong>, “Integrated Sensing and Communication for Symbiotic Radio over High-Mobility Channels”, *IEEE Transactions on Vehicular Technology*, accepted, 2026. [DOI: 10.1109/TVT.2026.3717756](https://doi.org/10.1109/TVT.2026.3717756)
 - M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, Y. Xu, and J. Pan, “LEO Satellite Internet of Things: Architecture, Technology, and On-Orbit Verification,” *IEEE Vehicular Technology Magazine*, accepted, 2026. [DOI: 10.1109/MVT.2026.3714978](https://doi.org/10.1109/MVT.2026.3714978)
 - Z. Liu, Z. Yang, Z. Zhang, <strong class="self-author">Q. Qi</strong>, Z. Zhang, and M. R. Shikh-Bahaei, “Multi-Agent Reinforcement Learning for Diffusion-Based Token Communications in Robotic Networks,” *IEEE Transactions on Cognitive Communications and Networking*, accepted, 2026. [DOI: 10.1109/TCCN.2026.3712126](https://doi.org/10.1109/TCCN.2026.3712126)
 - <strong class="self-author">Q. Qi</strong>, Q. Chen, J. An, X. Chen, Z. Yang, C. Huang, and Z. Zhang, “Stacked Intelligent Metasurface-Aided Multi-Static Sensing and Cooperative Communication,” *ENGINEERING Information Technology & Electronic Engineering*, accepted, 2026. [DOI: 10.1631/ENG.ITEE.2026.0137](https://doi.org/10.1631/ENG.ITEE.2026.0137)
