@@ -234,7 +234,7 @@ html { scroll-behavior: smooth; }
 
 ### 2024
 
-- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, C. Yuen, and Z. Zhang, “Deep Learning-Based Design of Uplink Integrated Sensing and Communication,” *IEEE Transactions on Wireless Communications*, vol. 23, no. 9, pp. 10639–10652, Sep. 2024. [DOI: 10.1109/TWC.2024.3373797](https://doi.org/10.1109/TWC.2024.3373797) / [arXiv](https://arxiv.org/abs/2403.01480) <span class="highly-cited-icon" role="img" aria-label="Highly Cited Paper" title="Highly Cited Paper">👑</span> <span class="publication-award">（入选ESI高被引）</span>
+- <strong class="self-author">Q. Qi</strong>, X. Chen, C. Zhong, C. Yuen, and Z. Zhang, “Deep Learning-Based Design of Uplink Integrated Sensing and Communication,” *IEEE Transactions on Wireless Communications*, vol. 23, no. 9, pp. 10639–10652, Sep. 2024. [DOI: 10.1109/TWC.2024.3373797](https://doi.org/10.1109/TWC.2024.3373797) / [arXiv](https://arxiv.org/abs/2403.01480) 
 - <strong class="self-author">Q. Qi</strong>, X. Chen, and C. Yuen, “Joint Offloading Selection and Resource Allocation for Integrated Localization and Computing in Edge-Intelligent Networks,” *IEEE Transactions on Vehicular Technology*, vol. 73, no. 8, pp. 11427–11440, Aug. 2024. [DOI: 10.1109/TVT.2024.3374705](https://doi.org/10.1109/TVT.2024.3374705)
 - <strong class="self-author">齐俏</strong>，陈晓明, “面向边缘智能网络的通-感-算融合：架构、挑战和展望,” *移动通信*, vol. 48, no. 3, pp. 40–46, 2024.
 - M. Ying, X. Chen, <strong class="self-author">Q. Qi</strong>, and W. Gerstacker, “Deep Learning-Based Joint Channel Prediction and Multibeam Precoding for LEO Satellite Internet of Things,” *IEEE Transactions on Wireless Communications*, vol. 23, no. 10, pp. 13946–13960, Oct. 2024. [DOI: 10.1109/TWC.2024.3406952](https://doi.org/10.1109/TWC.2024.3406952) / [arXiv](https://arxiv.org/abs/2405.17150)
@@ -247,7 +247,7 @@ html { scroll-behavior: smooth; }
 ### 2022
 
 - <strong class="self-author">Q. Qi</strong> and X. Chen, “Robust Design of Federated Learning for Edge-Intelligent Networks,” *IEEE Transactions on Communications*, vol. 70, no. 7, pp. 4469–4481, Jul. 2022. [DOI: 10.1109/TCOMM.2022.3175921](https://doi.org/10.1109/TCOMM.2022.3175921) / [arXiv](https://arxiv.org/abs/2205.06955)
-- <strong class="self-author">Q. Qi</strong>, X. Chen, A. Khalili, C. Zhong, Z. Zhang, and D. W. K. Ng, “Integrating Sensing, Computing, and Communication in 6G Wireless Networks: Design and Optimization,” *IEEE Transactions on Communications*, vol. 70, no. 9, pp. 6212–6227, Sep. 2022. [DOI: 10.1109/TCOMM.2022.3190363](https://doi.org/10.1109/TCOMM.2022.3190363) / [arXiv](https://arxiv.org/abs/2207.03634)
+- <strong class="self-author">Q. Qi</strong>, X. Chen, A. Khalili, C. Zhong, Z. Zhang, and D. W. K. Ng, “Integrating Sensing, Computing, and Communication in 6G Wireless Networks: Design and Optimization,” *IEEE Transactions on Communications*, vol. 70, no. 9, pp. 6212–6227, Sep. 2022. [DOI: 10.1109/TCOMM.2022.3190363](https://doi.org/10.1109/TCOMM.2022.3190363) / [arXiv](https://arxiv.org/abs/2207.03634) <span class="highly-cited-icon" role="img" aria-label="Highly Cited Paper" title="Highly Cited Paper">👑</span> <span class="publication-award">（入选ESI高被引）</span>
 
 ### 2021
 
