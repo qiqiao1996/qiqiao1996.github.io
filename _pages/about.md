@@ -183,13 +183,13 @@ html { scroll-behavior: smooth; }
 
 <div class="recruitment-box"><strong>欢迎加入课题组</strong><br>欢迎对无线通信、人工智能、边缘智能、通感算一体化和 6G 等方向有浓厚兴趣，且态度端正认真、理论功底扎实的同学加入课题组。每年招收 1~2 名硕士生，同时欢迎感兴趣的大二、大三学生提前参与科研训练。</div>
 
-加入本课题组的学生可以享受待遇如下：
+关于本课题组：
 
 1. 坚持师生平等，尊重学生权利；
-2. 论文署名客观公正，不用担心被抢一作；
+2. 论文署名客观公正合理；
 3. 亲力亲为、手把手指导学生快速入门；
-4. 不安排学生做与科研无关的杂事，为学生营造良好的科研环境；
-5. 发放额外助研金，并设置丰富的劳务津贴、科研成果奖励。
+4. 愿尽自己最大的努力帮助学生成长成材。
+5. 共同进步~！
 
 <div class="contact-strip"><strong>申请联系</strong><a href="mailto:qiqiao@hznu.edu.cn">qiqiao@hznu.edu.cn</a><a href="mailto:qiqiaozju@163.com">qiqiaozju@163.com</a><span>请附个人简历与成绩单</span></div>
 </div>
