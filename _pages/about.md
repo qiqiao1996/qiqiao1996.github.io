@@ -320,9 +320,10 @@ html { scroll-behavior: smooth; }
 6. <strong class="self-author">齐俏</strong>，陈晓明，张朝阳：一种基于深度学习的通信和感知融合方法。专利号：ZL202211249697.7。发明专利。授权时间：2025 年 8 月。
 7. <strong class="self-author">齐俏</strong>，陈麒羽，钱正洪：一种堆叠智能超表面增强的通信和计算融合方法。专利号：ZL202511679882.3。发明专利。
 8. <strong class="self-author">齐俏</strong>，陈麒羽，盛喆，王瑞钢，钱正洪：一种堆叠智能超表面辅助的多站协作通信和感知融合方法。专利号：ZL202610129697.5。发明专利。
-9. 王琦，陈晓明，<strong class="self-author">齐俏</strong>，张朝阳：一种计算和通信的融合方法。专利号：ZL202210035660.8。发明专利。授权时间：2023 年 12 月。
-10. 王琦，陈晓明，<strong class="self-author">齐俏</strong>，张朝阳：一种星地联合的边缘计算方法。专利号：ZL202210977079.8。发明专利。授权时间：2025 年 2 月。
-11. 王琦，陈晓明，<strong class="self-author">齐俏</strong>，张朝阳：一种基于多星协作的信息通信和位置感知一体化设计方法。专利号：202311059330.3。发明专利。
+9. <strong class="self-author">齐俏</strong>，陈麒羽，王琦，李建军，钱正洪：一种基于具身智能的无人机通感算控协同方法。专利号：202611471271.4。发明专利。 
+10. 王琦，陈晓明，<strong class="self-author">齐俏</strong>，张朝阳：一种计算和通信的融合方法。专利号：ZL202210035660.8。发明专利。授权时间：2023 年 12 月。
+11. 王琦，陈晓明，<strong class="self-author">齐俏</strong>，张朝阳：一种星地联合的边缘计算方法。专利号：ZL202210977079.8。发明专利。授权时间：2025 年 2 月。
+12. 王琦，陈晓明，<strong class="self-author">齐俏</strong>，张朝阳：一种基于多星协作的信息通信和位置感知一体化设计方法。专利号：202311059330.3。发明专利。
 </div>
 
 <div class="content-view" data-view="awards" id="awards" hidden markdown="1">
